@@ -1,0 +1,39 @@
+define_current_design bdma_pcie_ip
+
+###==== BEGIN Clocks
+###==== END Clocks
+
+###==== BEGIN "Generated Clocks"
+###==== END "Generated Clocks"
+
+###==== BEGIN "Inputs/Outpusts"
+###==== END "Inputs/Outpusts"
+
+###==== BEGIN "Delay Paths"
+###==== END "Delay Paths"
+
+###==== BEGIN Attributes - (Populated from tab in SCOPE, do not edit)
+###==== END Attributes
+
+###==== BEGIN Attributes - IO table (Populated from tab in SCOPE, do not edit)
+###ADS
+define_attribute {i:u_pcie_top.u_pcie_hard_ctrl.pcie3_iip_exrcvdata_rams.U_ipm2l_sdpram_data_rcv_ram.ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM36K_E1} {PAP_LOC} {DRM_586_1194:DRM1}
+define_attribute {i:u_pcie_top.u_pcie_hard_ctrl.pcie3_iip_exrcvdata_rams.U_ipm2l_sdpram_data_rcv_ram.ADDR_LOOP[0].DATA_LOOP[1].U_GTP_DRM36K_E1} {PAP_LOC} {DRM_586_1224:DRM1}
+define_attribute {i:u_pcie_top.u_pcie_hard_ctrl.pcie3_iip_exrcvdata_rams.U_ipm2l_sdpram_data_rcv_ram.ADDR_LOOP[0].DATA_LOOP[2].U_GTP_DRM36K_E1} {PAP_LOC} {DRM_586_1284:DRM1}
+define_attribute {i:u_pcie_top.u_pcie_hard_ctrl.pcie3_iip_exrcvdata_rams.U_ipm2l_sdpram_data_rcv_ram.ADDR_LOOP[0].DATA_LOOP[3].U_GTP_DRM36K_E1} {PAP_LOC} {DRM_586_1254:DRM1}
+define_attribute {i:u_pcie_top.u_pcie_hard_ctrl.pcie3_iip_exretry_rams.U_ipml_spram_transmit_retry_ram.ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM36K_E1} {PAP_LOC} {DRM_586_1314:DRM1}
+define_attribute {i:u_pcie_top.u_pcie_hard_ctrl.pcie3_iip_exretry_rams.U_ipml_spram_transmit_retry_ram.ADDR_LOOP[0].DATA_LOOP[1].U_GTP_DRM36K_E1} {PAP_LOC} {DRM_586_1344:DRM1}
+define_attribute {i:u_pcie_top.u_pcie_hard_ctrl.pcie3_iip_exretry_rams.U_ipml_spram_transmit_retry_ram.ADDR_LOOP[0].DATA_LOOP[2].U_GTP_DRM36K_E1} {PAP_LOC} {DRM_622_1380:DRM1}
+define_attribute {i:u_pcie_top.u_pcie_hard_ctrl.pcie3_iip_exretry_rams.U_ipml_spram_transmit_retry_ram.ADDR_LOOP[0].DATA_LOOP[3].U_GTP_DRM36K_E1} {PAP_LOC} {DRM_586_1380:DRM1}
+define_attribute {i:u_pcie_top.u_pcie_hard_ctrl.pcie3_iip_tph_rams.U_ipml_spram_tph_st_ram.ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM18K} {PAP_LOC} {DRM_586_1074:DRM0}
+###OEM
+#define_attribute {i:u_pcie_top.u_pcie_hard_ctrl.pcie3_iip_exrcvdata_rams.U_ipm2l_sdpram_data_rcv_ram.ADDR_LOOP\[0\]\.DATA_LOOP\[0\]\.U_GTP_DRM36K_E1} {PAP_LOC} {DRM_586_1194:DRM1}
+#define_attribute {i:u_pcie_top.u_pcie_hard_ctrl.pcie3_iip_exrcvdata_rams.U_ipm2l_sdpram_data_rcv_ram.ADDR_LOOP\[0\]\.DATA_LOOP\[1\]\.U_GTP_DRM36K_E1} {PAP_LOC} {DRM_586_1224:DRM1}
+#define_attribute {i:u_pcie_top.u_pcie_hard_ctrl.pcie3_iip_exrcvdata_rams.U_ipm2l_sdpram_data_rcv_ram.ADDR_LOOP\[0\]\.DATA_LOOP\[2\]\.U_GTP_DRM36K_E1} {PAP_LOC} {DRM_586_1284:DRM1}
+#define_attribute {i:u_pcie_top.u_pcie_hard_ctrl.pcie3_iip_exrcvdata_rams.U_ipm2l_sdpram_data_rcv_ram.ADDR_LOOP\[0\]\.DATA_LOOP\[3\]\.U_GTP_DRM36K_E1} {PAP_LOC} {DRM_586_1254:DRM1}
+#define_attribute {i:u_pcie_top.u_pcie_hard_ctrl.pcie3_iip_exretry_rams.U_ipml_spram_transmit_retry_ram.ADDR_LOOP\[0\]\.DATA_LOOP\[0\]\.U_GTP_DRM36K_E1} {PAP_LOC} {DRM_586_1314:DRM1}
+#define_attribute {i:u_pcie_top.u_pcie_hard_ctrl.pcie3_iip_exretry_rams.U_ipml_spram_transmit_retry_ram.ADDR_LOOP\[0\]\.DATA_LOOP\[1\]\.U_GTP_DRM36K_E1} {PAP_LOC} {DRM_586_1344:DRM1}
+#define_attribute {i:u_pcie_top.u_pcie_hard_ctrl.pcie3_iip_exretry_rams.U_ipml_spram_transmit_retry_ram.ADDR_LOOP\[0\]\.DATA_LOOP\[2\]\.U_GTP_DRM36K_E1} {PAP_LOC} {DRM_622_1380:DRM1}
+#define_attribute {i:u_pcie_top.u_pcie_hard_ctrl.pcie3_iip_exretry_rams.U_ipml_spram_transmit_retry_ram.ADDR_LOOP\[0\]\.DATA_LOOP\[3\]\.U_GTP_DRM36K_E1} {PAP_LOC} {DRM_586_1380:DRM1}
+#define_attribute {i:u_pcie_top.u_pcie_hard_ctrl.pcie3_iip_tph_rams.U_ipml_spram_tph_st_ram.ADDR_LOOP\[0\]\.DATA_LOOP\[0\]\.U_GTP_DRM18K} {PAP_LOC} {DRM_586_1074:DRM0}
+###==== END Attributes(IO table)

@@ -1,0 +1,59 @@
+######### BEGIN Clocks ########
+## PCIe
+create_clock -name {refclk} [get_pins {u_bdma_core_top.u_bdma_pcie_ip.u_pcie_top.u_phy.U1_L_HSSTHP_TOP/P_REFCK2CORE_0}] -period {10.000} -waveform {0.000 5.000}
+create_clock -name {pclk} [get_pins {u_bdma_core_top.u_bdma_pcie_ip.u_pcie_top.u_phy.U1_L_HSSTHP_TOP/P_RCLK2FABRIC_0}] -period {2.000} -waveform {0.000 1.000}
+create_clock -name {pclk_div2} [get_pins {u_bdma_core_top.u_bdma_pcie_ip.u_pcie_top.u_phy.U1_L_HSSTHP_TOP/P_TCLK2FABRIC_0}] -period {4.000} -waveform {0.000 2.000}
+
+
+######### END Clocks ########
+
+
+######### BEGIN "Generated Clocks" ########
+
+create_generated_clock -name {user_clk}  -source [get_pins {u_bdma_core_top.u_bdma_pcie_ip.u_pcie_top.u_phy.U1_L_HSSTHP_TOP/P_REFCK2CORE_0}] [get_pins {u_bdma_core_top.u_user_clk_pll.clkout2}] -master_clock [get_clocks {refclk}] -multiply_by {5} -divide_by {2}
+######### END "Generated Clocks" ########
+
+
+######### BEGIN "Clock Group" ########
+
+set_clock_groups -name group_0 -asynchronous -group [get_clocks {user_clk}]
+set_clock_groups -name group_1 -asynchronous -group [get_clocks {pclk}]
+set_clock_groups -name group_2 -asynchronous -group [get_clocks {pclk_div2}]
+set_clock_groups -name group_3 -asynchronous -group [get_clocks {refclk}]
+
+######### END "Clock Group ########
+
+
+
+
+
+######### BEGIN "Io Table" ########
+## PCIe
+define_attribute {p:perst_n} {PAP_IO_DIRECTION} {INPUT}
+define_attribute {p:perst_n} {PAP_IO_LOC} {L25}
+define_attribute {p:perst_n} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:perst_n} {PAP_IO_STANDARD} {LVCMOS33}
+
+define_attribute {p:pcie_link_up} {PAP_IO_DIRECTION} {OUTPUT}
+define_attribute {p:pcie_link_up} {PAP_IO_LOC} {N16}
+define_attribute {p:pcie_link_up} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:pcie_link_up} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:pcie_link_up} {PAP_IO_DRIVE} {12}
+define_attribute {p:pcie_link_up} {PAP_IO_SLEW} {FAST}
+
+define_attribute {p:ref_clk_p} {PAP_IO_LOC} {D6}
+define_attribute {p:ref_clk_n} {PAP_IO_LOC} {D5}
+
+define_attribute {i:u_bdma_core_top.u_bdma_pcie_ip.u_pcie_top.u_phy.U1_L_HSSTHP_TOP.HPLL_ENABLE.U_HPLL_WRAP.U_HPLL} {PAP_LOC} {HSSTHP_664_1224:U_HSSTHP_COMMON}
+define_attribute {i:u_bdma_core_top.u_bdma_pcie_ip.u_pcie_top.u_phy.U1_L_HSSTHP_TOP.CHANNEL3_ENABLE.U_LANE3_WRAP.U_LANE0} {PAP_LOC} {HSSTHP_664_1224:U0_HSSTHP_LANE}
+define_attribute {i:u_bdma_core_top.u_bdma_pcie_ip.u_pcie_top.u_phy.U1_L_HSSTHP_TOP.CHANNEL2_ENABLE.U_LANE2_WRAP.U_LANE1} {PAP_LOC} {HSSTHP_664_1224:U1_HSSTHP_LANE}
+define_attribute {i:u_bdma_core_top.u_bdma_pcie_ip.u_pcie_top.u_phy.U1_L_HSSTHP_TOP.CHANNEL1_ENABLE.U_LANE1_WRAP.U_LANE2} {PAP_LOC} {HSSTHP_664_1224:U2_HSSTHP_LANE}
+define_attribute {i:u_bdma_core_top.u_bdma_pcie_ip.u_pcie_top.u_phy.U1_L_HSSTHP_TOP.CHANNEL0_ENABLE.U_LANE0_WRAP.U_LANE3} {PAP_LOC} {HSSTHP_664_1224:U3_HSSTHP_LANE}
+
+define_attribute {t:u_bdma_core_top.u_user_clk_pll.clkout2} {PAP_CLOCK_ASSIGN} {GTP_CLKBUFG}
+define_attribute {t:u_bdma_core_top.u_bdma_pcie_ip.u_pcie_top.u_phy.U1_L_HSSTHP_TOP.P_RCLK2FABRIC_0} {PAP_CLOCK_ASSIGN} {GTP_CLKBUFG}
+define_attribute {t:u_bdma_core_top.u_bdma_pcie_ip.u_pcie_top.u_phy.U1_L_HSSTHP_TOP.P_TCLK2FABRIC_0} {PAP_CLOCK_ASSIGN} {GTP_CLKBUFG}
+define_attribute {t:u_bdma_core_top.u_bdma_pcie_ip.u_pcie_top.u_phy.U1_L_HSSTHP_TOP.P_REFCK2CORE_0} {PAP_CLOCK_ASSIGN} {GTP_CLKBUFG}
+
+###==== END Io Table
+

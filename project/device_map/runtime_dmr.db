@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tables>
+    <table id="device_map_runtime" title="Device Map Runtime &amp; Memory" column_number="7">
+        <column_headers>
+            <data>Cpu Time</data>
+            <data>Process Cpu Time</data>
+            <data>Real Time</data>
+            <data>Peak Memory (MB)</data>
+            <data>Operation System</data>
+            <data>CPU</data>
+            <data>RAM(GB)</data>
+        </column_headers>
+        <row>
+            <data>0h:0m:33s</data>
+            <data>0h:0m:37s</data>
+            <data>0h:0m:43s</data>
+            <data>1,486</data>
+            <data>WINDOWS 11 x86_64</data>
+            <data>Unknown</data>
+            <data>32</data>
+        </row>
+    </table>
+</tables>

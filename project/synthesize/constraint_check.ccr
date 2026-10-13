@@ -1,0 +1,29 @@
+##### Written on 2026/10/09 21:21:46 ################################################
+
+##### INFO ##########################################################################
+
+Current Device:
+    PG2T390H-6FFBG676
+
+Top Module:
+    bdma_pcie
+
+Constraint File(s):
+    F:/PDS_Workspace/AES_DSA/bdma_pcie_v0_4/project/constraints/bdma_pcie.fdc
+    F:/PDS_Workspace/AES_DSA/bdma_pcie_v0_4/project/rtl/bdma_pcie_ip/pnr/core_only/bdma_pcie_ip.fdc
+
+##### SUMMARY #######################################################################
+
+Found 0 error(s), 1 critical warning(s), 2 warning(s), out of 39 constraint(s)
+
+Constraints With Issues(infos):
+********************************************
+
+Other Issues(infos):
+********************************************
+
+    C: ConstraintEditor-2012: HSSTHP is used and HSSTHP impedance calibration function must be enabled; And one 'U_HSSTHP_COMMON' must be constrained on 'HSSTHP_664_918'.
+
+    W: ConstraintEditor-4042: Port 'p:perst_n' lacks attribute 'BUS_KEEPER', it's better to set the attribute for port.
+    W: ConstraintEditor-4042: Port 'p:pcie_link_up' lacks attribute 'BUS_KEEPER', it's better to set the attribute for port.
+

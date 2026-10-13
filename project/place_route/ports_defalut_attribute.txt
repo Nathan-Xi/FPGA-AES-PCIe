@@ -1,0 +1,11 @@
+The following ports are set to default value, please confirm:
+Port 'p:pcie_link_up':
+BUS_KEEPER is set to default value: NONE,
+OFF_CHIP_TERMINATION is set to default value: N,
+OPEN_DRAIN is set to default value: OFF,
+
+Port 'p:perst_n':
+BUS_KEEPER is set to default value: NONE,
+CP_HYS is set to default value: ON,
+
+

@@ -1,0 +1,1211 @@
+[Info] [2026-10-8 21:47:16] /***************************Start Configuration***************************/
+[Info] [2026-10-8 21:47:16] Path: H:/3588F/Tools/PDS_2024.2-SP1.2-ads/pango/PDS_2024.2-SP1.2-ads/bin
+[Info] [2026-10-8 21:47:16] Version: 187561
+[Info] [2026-10-8 21:47:17] Current Path: F:/PDS_Workspace/AES_DSA/bdma_pcie_v0_4/project
+[Info] [2026-10-8 21:47:17] PDS Dir Path: F:/PDS_Workspace/AES_DSA/bdma_pcie_v0_4/project
+[Info] [2026-10-8 21:47:20] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2026-10-8 21:47:20] Client Local host name:NATHAN_XI
+[Debug] [2026-10-8 21:47:20] Client Local Address:58.199.178.28
+[Debug] [2026-10-8 21:47:20] Client Local Address:192.168.1.100
+[Debug] [2026-10-8 21:47:20] Client Local Address:172.26.160.1
+[Debug] [2026-10-8 21:47:20] Client Local Address:192.168.84.1
+[Debug] [2026-10-8 21:47:20] Client Local Address:192.168.197.1
+[Debug] [2026-10-8 21:47:20] Server Address:127.0.0.1, Port:65420
+[Debug] [2026-10-8 21:47:20] Log::Print : Connecting to server[127.0.0.1 : 65420].
+[Info] [2026-10-8 21:47:21] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2026-10-8 21:47:21] Finish.
+[Info] [2026-10-8 21:47:21] Connect server succeeded
+[Debug] [2026-10-8 21:47:21] Send RPC:1
+[Debug] [2026-10-8 21:47:21] Send cmd [check version information:40004] OK
+[Debug] [2026-10-8 21:47:21] Log::Print : Connect to server[127.0.0.1 : 65420] successfully.
+[Debug] [2026-10-8 21:47:21] Send RPC:2
+[Debug] [2026-10-8 21:47:21] Send cmd [get_cable_paras:40010] OK
+[Debug] [2026-10-8 21:47:21] Begin to send initialize chain cmd...
+[Debug] [2026-10-8 21:47:21] Send RPC:3
+[Debug] [2026-10-8 21:47:21] Send cmd [Open config cable:20001] OK
+[Debug] [2026-10-8 21:47:21] End to send initialize chain cmd.
+[Debug] [2026-10-8 21:47:21] COMMAND[check version information] execute successfully, takes 0.4 secs.
+[Debug] [2026-10-8 21:47:21] Log::Print : COMMAND[check version information] execute successfully, takes 0.4 secs.
+[Debug] [2026-10-8 21:47:22] Before cable list reserve:1
+[Debug] [2026-10-8 21:47:22] After cable list reserve
+[Debug] [2026-10-8 21:47:22] COMMAND[get_cable_paras] execute successfully, takes 1.1 secs.
+[Debug] [2026-10-8 21:47:22] Log::Print : The cable List : 
+Cable index 0:USB Cable II/fffffffffffffffe 
+
+[Debug] [2026-10-8 21:47:22] Log::Print : COMMAND[get_cable_paras] execute successfully, takes 1.1 secs.
+[Debug] [2026-10-8 21:47:22] begin the exec of open cable cmd...
+[Debug] [2026-10-8 21:47:22] Begin to deal with chain from server...
+[Debug] [2026-10-8 21:47:22] Begin to set user chain...
+[Debug] [2026-10-8 21:47:22] End to set user chain.
+[Debug] [2026-10-8 21:47:22] Begin to update graphic item and tree item ...
+[Debug] [2026-10-8 21:47:22] End to update graphic item and tree item ...
+[Debug] [2026-10-8 21:47:23] Log::Print : PANGO USB CABLE II cable driver: D2XX DLL
+[Debug] [2026-10-8 21:47:23] Log::Print : PG2T390H
+[Debug] [2026-10-8 21:47:23] Log::Print : This device configure situation (done bit): 1
+[Info] [2026-10-8 21:47:25] set OpenLastPath: F:/PDS_Workspace/AES_DSA/bdma_pcie_v0_4/project/generate_bitstream/bdma_pcie.sbit
+[Debug] [2026-10-8 21:47:25] begin to get device info from CFG file...
+[Debug] [2026-10-8 21:47:26] end to get device info from CFG file...
+[Debug] [2026-10-8 21:47:26] Begin to update graphic item and tree item ...
+[Debug] [2026-10-8 21:47:26] End to update graphic item and tree item ...
+[Debug] [2026-10-8 21:47:26] Begin to update graphic item and tree item ...
+[Debug] [2026-10-8 21:47:26] End to update graphic item and tree item ...
+[Debug] [2026-10-8 21:47:26] End to deal wiht chain from server.
+[Debug] [2026-10-8 21:47:26] end the exec of open cable cmd.
+[Debug] [2026-10-8 21:47:26] COMMAND[Open config cable] execute successfully, takes 4.4 secs.
+[Debug] [2026-10-8 21:47:26] Log::Print : COMMAND[Open config cable] execute successfully, takes 4.4 secs.
+[Debug] [2026-10-8 21:47:28] Begin to send programming cmd...
+[Debug] [2026-10-8 21:47:28] Send RPC:4
+[Debug] [2026-10-8 21:47:28] Begin to send program data.
+[Debug] [2026-10-8 21:47:28] End to send program data.
+[Debug] [2026-10-8 21:47:28] Send cmd [Program:20002] OK
+[Debug] [2026-10-8 21:47:29] The value of Progress is 6
+[Debug] [2026-10-8 21:47:29] The value of Progress is 10
+[Debug] [2026-10-8 21:47:29] The value of Progress is 15
+[Debug] [2026-10-8 21:47:30] The value of Progress is 20
+[Debug] [2026-10-8 21:47:30] The value of Progress is 25
+[Debug] [2026-10-8 21:47:30] The value of Progress is 30
+[Debug] [2026-10-8 21:47:31] The value of Progress is 35
+[Debug] [2026-10-8 21:47:31] The value of Progress is 40
+[Debug] [2026-10-8 21:47:31] The value of Progress is 45
+[Debug] [2026-10-8 21:47:32] The value of Progress is 50
+[Debug] [2026-10-8 21:47:32] The value of Progress is 55
+[Debug] [2026-10-8 21:47:32] The value of Progress is 60
+[Debug] [2026-10-8 21:47:33] The value of Progress is 65
+[Debug] [2026-10-8 21:47:33] The value of Progress is 70
+[Debug] [2026-10-8 21:47:33] The value of Progress is 75
+[Debug] [2026-10-8 21:47:34] The value of Progress is 80
+[Debug] [2026-10-8 21:47:34] The value of Progress is 85
+[Debug] [2026-10-8 21:47:34] The value of Progress is 90
+[Debug] [2026-10-8 21:47:35] The value of Progress is 95
+[Debug] [2026-10-8 21:47:35] The value of Progress is 100
+[Debug] [2026-10-8 21:47:35] COMMAND[Program] execute successfully, takes 6.9 secs.
+[Debug] [2026-10-8 21:47:35] End to send programming cmd.
+[Debug] [2026-10-8 21:47:35] Log::Print : [2026.10.08 21:47:35]Finish program F:/PDS_Workspace/AES_DSA/bdma_pcie_v0_4/project/generate_bitstream/bdma_pcie.sbit
+[Debug] [2026-10-8 21:47:35] Log::Print : The done bit is 1
+[Debug] [2026-10-8 21:47:35] Log::Print : COMMAND[Program] execute successfully, takes 6.9 secs.
+[Debug] [2026-10-8 21:50:38] Begin to assign configuration file...
+[Debug] [2026-10-8 21:50:41] selected file name is empty and ignore.
+[Debug] [2026-10-8 21:50:41] End to assign configuration file...
+[Info] [2026-10-8 21:50:42] /***************************End Configration***************************/
+[Info] [2026-10-8 23:00:59] /***************************Start Configuration***************************/
+[Info] [2026-10-8 23:00:59] Path: H:/3588F/Tools/PDS_2024.2-SP1.2-ads/pango/PDS_2024.2-SP1.2-ads/bin
+[Info] [2026-10-8 23:00:59] Version: 187561
+[Info] [2026-10-8 23:01:00] Current Path: F:/PDS_Workspace/AES_DSA/bdma_pcie_v0_4/project
+[Info] [2026-10-8 23:01:00] PDS Dir Path: F:/PDS_Workspace/AES_DSA/bdma_pcie_v0_4/project
+[Debug] [2026-10-8 23:01:03] begin to add device by bitstream file.
+[Debug] [2026-10-8 23:01:05] bin file name is empty and end add device.
+[Info] [2026-10-8 23:01:10] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2026-10-8 23:01:10] Client Local host name:NATHAN_XI
+[Debug] [2026-10-8 23:01:10] Client Local Address:58.199.178.28
+[Debug] [2026-10-8 23:01:10] Client Local Address:192.168.1.100
+[Debug] [2026-10-8 23:01:10] Client Local Address:172.26.160.1
+[Debug] [2026-10-8 23:01:10] Client Local Address:192.168.84.1
+[Debug] [2026-10-8 23:01:10] Client Local Address:192.168.197.1
+[Debug] [2026-10-8 23:01:10] Server Address:127.0.0.1, Port:65420
+[Debug] [2026-10-8 23:01:10] Log::Print : Connecting to server[127.0.0.1 : 65420].
+[Info] [2026-10-8 23:01:10] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2026-10-8 23:01:10] Finish.
+[Info] [2026-10-8 23:01:10] Connect server succeeded
+[Debug] [2026-10-8 23:01:10] Send RPC:1
+[Debug] [2026-10-8 23:01:10] Send cmd [check version information:40004] OK
+[Debug] [2026-10-8 23:01:10] Log::Print : Connect to server[127.0.0.1 : 65420] successfully.
+[Debug] [2026-10-8 23:01:10] Send RPC:2
+[Debug] [2026-10-8 23:01:10] Send cmd [get_cable_paras:40010] OK
+[Debug] [2026-10-8 23:01:10] Begin to send initialize chain cmd...
+[Debug] [2026-10-8 23:01:10] Send RPC:3
+[Debug] [2026-10-8 23:01:10] Send cmd [Open config cable:20001] OK
+[Debug] [2026-10-8 23:01:10] End to send initialize chain cmd.
+[Debug] [2026-10-8 23:01:10] COMMAND[check version information] execute successfully, takes 0.3 secs.
+[Debug] [2026-10-8 23:01:10] Log::Print : COMMAND[check version information] execute successfully, takes 0.3 secs.
+[Debug] [2026-10-8 23:01:12] Before cable list reserve:1
+[Debug] [2026-10-8 23:01:12] After cable list reserve
+[Debug] [2026-10-8 23:01:12] COMMAND[get_cable_paras] execute successfully, takes 1.1 secs.
+[Debug] [2026-10-8 23:01:12] Log::Print : The cable List : 
+Cable index 0:USB Cable II/fffffffffffffffe 
+
+[Debug] [2026-10-8 23:01:12] Log::Print : COMMAND[get_cable_paras] execute successfully, takes 1.1 secs.
+[Debug] [2026-10-8 23:01:12] begin the exec of open cable cmd...
+[Debug] [2026-10-8 23:01:12] Begin to deal with chain from server...
+[Debug] [2026-10-8 23:01:12] Begin to set user chain...
+[Debug] [2026-10-8 23:01:12] End to set user chain.
+[Debug] [2026-10-8 23:01:12] Begin to update graphic item and tree item ...
+[Debug] [2026-10-8 23:01:12] End to update graphic item and tree item ...
+[Debug] [2026-10-8 23:01:12] Log::Print : PANGO USB CABLE II cable driver: D2XX DLL
+[Debug] [2026-10-8 23:01:12] Log::Print : PG2T390H
+[Debug] [2026-10-8 23:01:12] Log::Print : This device configure situation (done bit): 1
+[Info] [2026-10-8 23:01:14] set OpenLastPath: F:/PDS_Workspace/AES_DSA/bdma_pcie_v0_4/project/generate_bitstream/bdma_pcie.sbit
+[Debug] [2026-10-8 23:01:14] begin to get device info from CFG file...
+[Debug] [2026-10-8 23:01:14] end to get device info from CFG file...
+[Debug] [2026-10-8 23:01:14] Begin to update graphic item and tree item ...
+[Debug] [2026-10-8 23:01:14] End to update graphic item and tree item ...
+[Debug] [2026-10-8 23:01:14] Begin to update graphic item and tree item ...
+[Debug] [2026-10-8 23:01:14] End to update graphic item and tree item ...
+[Debug] [2026-10-8 23:01:14] End to deal wiht chain from server.
+[Debug] [2026-10-8 23:01:14] end the exec of open cable cmd.
+[Debug] [2026-10-8 23:01:14] COMMAND[Open config cable] execute successfully, takes 3.8 secs.
+[Debug] [2026-10-8 23:01:14] Log::Print : COMMAND[Open config cable] execute successfully, takes 3.8 secs.
+[Debug] [2026-10-8 23:01:17] Begin to send programming cmd...
+[Debug] [2026-10-8 23:01:17] Send RPC:4
+[Debug] [2026-10-8 23:01:17] Begin to send program data.
+[Debug] [2026-10-8 23:01:17] End to send program data.
+[Debug] [2026-10-8 23:01:17] Send cmd [Program:20002] OK
+[Debug] [2026-10-8 23:01:17] The value of Progress is 6
+[Debug] [2026-10-8 23:01:17] The value of Progress is 10
+[Debug] [2026-10-8 23:01:18] The value of Progress is 15
+[Debug] [2026-10-8 23:01:18] The value of Progress is 20
+[Debug] [2026-10-8 23:01:18] The value of Progress is 25
+[Debug] [2026-10-8 23:01:19] The value of Progress is 30
+[Debug] [2026-10-8 23:01:19] The value of Progress is 35
+[Debug] [2026-10-8 23:01:19] The value of Progress is 40
+[Debug] [2026-10-8 23:01:20] The value of Progress is 45
+[Debug] [2026-10-8 23:01:20] The value of Progress is 50
+[Debug] [2026-10-8 23:01:20] The value of Progress is 55
+[Debug] [2026-10-8 23:01:21] The value of Progress is 60
+[Debug] [2026-10-8 23:01:21] The value of Progress is 65
+[Debug] [2026-10-8 23:01:21] The value of Progress is 70
+[Debug] [2026-10-8 23:01:22] The value of Progress is 75
+[Debug] [2026-10-8 23:01:22] The value of Progress is 80
+[Debug] [2026-10-8 23:01:23] The value of Progress is 85
+[Debug] [2026-10-8 23:01:23] The value of Progress is 90
+[Debug] [2026-10-8 23:01:23] The value of Progress is 95
+[Debug] [2026-10-8 23:01:24] The value of Progress is 100
+[Debug] [2026-10-8 23:01:24] COMMAND[Program] execute successfully, takes 6.8 secs.
+[Debug] [2026-10-8 23:01:24] End to send programming cmd.
+[Debug] [2026-10-8 23:01:24] Log::Print : [2026.10.08 23:01:24]Finish program F:/PDS_Workspace/AES_DSA/bdma_pcie_v0_4/project/generate_bitstream/bdma_pcie.sbit
+[Debug] [2026-10-8 23:01:24] Log::Print : The done bit is 1
+[Debug] [2026-10-8 23:01:24] Log::Print : COMMAND[Program] execute successfully, takes 6.8 secs.
+[Info] [2026-10-8 23:01:27] /***************************End Configration***************************/
+[Info] [2026-10-9 07:37:20] /***************************Start Configuration***************************/
+[Info] [2026-10-9 07:37:20] Path: H:/3588F/Tools/PDS_2024.2-SP1.2-ads/pango/PDS_2024.2-SP1.2-ads/bin
+[Info] [2026-10-9 07:37:20] Version: 187561
+[Info] [2026-10-9 07:37:21] Current Path: F:/PDS_Workspace/AES_DSA/bdma_pcie_v0_4/project
+[Info] [2026-10-9 07:37:21] PDS Dir Path: F:/PDS_Workspace/AES_DSA/bdma_pcie_v0_4/project
+[Info] [2026-10-9 07:37:24] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2026-10-9 07:37:24] Client Local host name:NATHAN_XI
+[Debug] [2026-10-9 07:37:24] Client Local Address:58.199.178.28
+[Debug] [2026-10-9 07:37:24] Client Local Address:192.168.1.100
+[Debug] [2026-10-9 07:37:24] Client Local Address:172.26.160.1
+[Debug] [2026-10-9 07:37:24] Client Local Address:192.168.84.1
+[Debug] [2026-10-9 07:37:24] Client Local Address:192.168.197.1
+[Debug] [2026-10-9 07:37:24] Server Address:127.0.0.1, Port:65420
+[Debug] [2026-10-9 07:37:24] Log::Print : Connecting to server[127.0.0.1 : 65420].
+[Info] [2026-10-9 07:37:25] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2026-10-9 07:37:25] Finish.
+[Info] [2026-10-9 07:37:25] Connect server succeeded
+[Debug] [2026-10-9 07:37:25] Send RPC:1
+[Debug] [2026-10-9 07:37:25] Send cmd [check version information:40004] OK
+[Debug] [2026-10-9 07:37:25] Log::Print : Connect to server[127.0.0.1 : 65420] successfully.
+[Debug] [2026-10-9 07:37:25] Send RPC:2
+[Debug] [2026-10-9 07:37:25] Send cmd [get_cable_paras:40010] OK
+[Debug] [2026-10-9 07:37:25] Begin to send initialize chain cmd...
+[Debug] [2026-10-9 07:37:25] Send RPC:3
+[Debug] [2026-10-9 07:37:25] Send cmd [Open config cable:20001] OK
+[Debug] [2026-10-9 07:37:25] End to send initialize chain cmd.
+[Debug] [2026-10-9 07:37:25] COMMAND[check version information] execute successfully, takes 0.9 secs.
+[Debug] [2026-10-9 07:37:25] Log::Print : COMMAND[check version information] execute successfully, takes 0.9 secs.
+[Debug] [2026-10-9 07:37:27] Before cable list reserve:1
+[Debug] [2026-10-9 07:37:27] After cable list reserve
+[Debug] [2026-10-9 07:37:27] COMMAND[get_cable_paras] execute successfully, takes 1.4 secs.
+[Debug] [2026-10-9 07:37:27] Log::Print : The cable List : 
+Cable index 0:USB Cable II/fffffffffffffffe 
+
+[Debug] [2026-10-9 07:37:27] Log::Print : COMMAND[get_cable_paras] execute successfully, takes 1.4 secs.
+[Debug] [2026-10-9 07:37:27] begin the exec of open cable cmd...
+[Debug] [2026-10-9 07:37:27] Begin to deal with chain from server...
+[Debug] [2026-10-9 07:37:27] Begin to set user chain...
+[Debug] [2026-10-9 07:37:27] End to set user chain.
+[Debug] [2026-10-9 07:37:27] Begin to update graphic item and tree item ...
+[Debug] [2026-10-9 07:37:27] End to update graphic item and tree item ...
+[Debug] [2026-10-9 07:37:27] Log::Print : PANGO USB CABLE II cable driver: D2XX DLL
+[Debug] [2026-10-9 07:37:27] Log::Print : PG2T390H
+[Debug] [2026-10-9 07:37:27] Log::Print : This device configure situation (done bit): 1
+[Info] [2026-10-9 07:37:32] set OpenLastPath: F:/PDS_Workspace/AES_DSA/bdma_pcie_v0_4/project/generate_bitstream/bdma_pcie.sbit
+[Debug] [2026-10-9 07:37:32] begin to get device info from CFG file...
+[Debug] [2026-10-9 07:37:32] end to get device info from CFG file...
+[Debug] [2026-10-9 07:37:32] Begin to update graphic item and tree item ...
+[Debug] [2026-10-9 07:37:32] End to update graphic item and tree item ...
+[Debug] [2026-10-9 07:37:32] Begin to update graphic item and tree item ...
+[Debug] [2026-10-9 07:37:32] End to update graphic item and tree item ...
+[Debug] [2026-10-9 07:37:32] End to deal wiht chain from server.
+[Debug] [2026-10-9 07:37:32] end the exec of open cable cmd.
+[Debug] [2026-10-9 07:37:32] COMMAND[Open config cable] execute successfully, takes 6.2 secs.
+[Debug] [2026-10-9 07:37:32] Log::Print : COMMAND[Open config cable] execute successfully, takes 6.2 secs.
+[Debug] [2026-10-9 07:37:34] Begin to send programming cmd...
+[Debug] [2026-10-9 07:37:34] Send RPC:4
+[Debug] [2026-10-9 07:37:34] Begin to send program data.
+[Debug] [2026-10-9 07:37:34] End to send program data.
+[Debug] [2026-10-9 07:37:34] Send cmd [Program:20002] OK
+[Debug] [2026-10-9 07:37:35] The value of Progress is 6
+[Debug] [2026-10-9 07:37:35] The value of Progress is 10
+[Debug] [2026-10-9 07:37:35] The value of Progress is 15
+[Debug] [2026-10-9 07:37:36] The value of Progress is 20
+[Debug] [2026-10-9 07:37:36] The value of Progress is 25
+[Debug] [2026-10-9 07:37:37] The value of Progress is 30
+[Debug] [2026-10-9 07:37:37] The value of Progress is 35
+[Debug] [2026-10-9 07:37:37] The value of Progress is 40
+[Debug] [2026-10-9 07:37:38] The value of Progress is 45
+[Debug] [2026-10-9 07:37:38] The value of Progress is 50
+[Debug] [2026-10-9 07:37:38] The value of Progress is 55
+[Debug] [2026-10-9 07:37:39] The value of Progress is 60
+[Debug] [2026-10-9 07:37:39] The value of Progress is 65
+[Debug] [2026-10-9 07:37:39] The value of Progress is 70
+[Debug] [2026-10-9 07:37:40] The value of Progress is 75
+[Debug] [2026-10-9 07:37:40] The value of Progress is 80
+[Debug] [2026-10-9 07:37:40] The value of Progress is 85
+[Debug] [2026-10-9 07:37:41] The value of Progress is 90
+[Debug] [2026-10-9 07:37:41] The value of Progress is 95
+[Debug] [2026-10-9 07:37:41] The value of Progress is 100
+[Debug] [2026-10-9 07:37:41] COMMAND[Program] execute successfully, takes 6.9 secs.
+[Debug] [2026-10-9 07:37:41] End to send programming cmd.
+[Debug] [2026-10-9 07:37:41] Log::Print : [2026.10.09 07:37:41]Finish program F:/PDS_Workspace/AES_DSA/bdma_pcie_v0_4/project/generate_bitstream/bdma_pcie.sbit
+[Debug] [2026-10-9 07:37:41] Log::Print : The done bit is 1
+[Debug] [2026-10-9 07:37:41] Log::Print : COMMAND[Program] execute successfully, takes 6.9 secs.
+[Info] [2026-10-9 07:39:39] /***************************End Configration***************************/
+[Info] [2026-10-9 13:29:08] /***************************Start Configuration***************************/
+[Info] [2026-10-9 13:29:08] Path: H:/3588F/Tools/PDS_2024.2-SP1.2-ads/pango/PDS_2024.2-SP1.2-ads/bin
+[Info] [2026-10-9 13:29:08] Version: 187561
+[Info] [2026-10-9 13:29:09] Current Path: F:/PDS_Workspace/AES_DSA/bdma_pcie_v0_4/project
+[Info] [2026-10-9 13:29:09] PDS Dir Path: F:/PDS_Workspace/AES_DSA/bdma_pcie_v0_4/project
+[Info] [2026-10-9 13:29:15] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2026-10-9 13:29:15] Client Local host name:NATHAN_XI
+[Debug] [2026-10-9 13:29:15] Client Local Address:58.199.178.28
+[Debug] [2026-10-9 13:29:15] Client Local Address:192.168.1.100
+[Debug] [2026-10-9 13:29:15] Client Local Address:172.26.160.1
+[Debug] [2026-10-9 13:29:15] Client Local Address:192.168.84.1
+[Debug] [2026-10-9 13:29:15] Client Local Address:192.168.197.1
+[Debug] [2026-10-9 13:29:15] Server Address:127.0.0.1, Port:65420
+[Debug] [2026-10-9 13:29:15] Log::Print : Connecting to server[127.0.0.1 : 65420].
+[Info] [2026-10-9 13:29:15] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2026-10-9 13:29:15] Finish.
+[Info] [2026-10-9 13:29:15] Connect server succeeded
+[Debug] [2026-10-9 13:29:15] Send RPC:1
+[Debug] [2026-10-9 13:29:15] Send cmd [check version information:40004] OK
+[Debug] [2026-10-9 13:29:15] Log::Print : Connect to server[127.0.0.1 : 65420] successfully.
+[Debug] [2026-10-9 13:29:16] Send RPC:2
+[Debug] [2026-10-9 13:29:16] Send cmd [get_cable_paras:40010] OK
+[Debug] [2026-10-9 13:29:16] Begin to send initialize chain cmd...
+[Debug] [2026-10-9 13:29:16] Send RPC:3
+[Debug] [2026-10-9 13:29:16] Send cmd [Open config cable:20001] OK
+[Debug] [2026-10-9 13:29:16] End to send initialize chain cmd.
+[Debug] [2026-10-9 13:29:16] COMMAND[check version information] execute successfully, takes 0.4 secs.
+[Debug] [2026-10-9 13:29:16] Log::Print : COMMAND[check version information] execute successfully, takes 0.4 secs.
+[Debug] [2026-10-9 13:29:17] Before cable list reserve:1
+[Debug] [2026-10-9 13:29:17] After cable list reserve
+[Debug] [2026-10-9 13:29:17] COMMAND[get_cable_paras] execute successfully, takes 1.2 secs.
+[Debug] [2026-10-9 13:29:17] Log::Print : The cable List : 
+Cable index 0:USB Cable II/fffffffffffffffe 
+
+[Debug] [2026-10-9 13:29:17] Log::Print : COMMAND[get_cable_paras] execute successfully, takes 1.2 secs.
+[Debug] [2026-10-9 13:29:17] begin the exec of open cable cmd...
+[Debug] [2026-10-9 13:29:17] Begin to deal with chain from server...
+[Debug] [2026-10-9 13:29:17] Begin to set user chain...
+[Debug] [2026-10-9 13:29:17] End to set user chain.
+[Debug] [2026-10-9 13:29:17] Begin to update graphic item and tree item ...
+[Debug] [2026-10-9 13:29:17] End to update graphic item and tree item ...
+[Debug] [2026-10-9 13:29:17] Log::Print : PANGO USB CABLE II cable driver: D2XX DLL
+[Debug] [2026-10-9 13:29:17] Log::Print : PG2T390H
+[Debug] [2026-10-9 13:29:17] Log::Print : This device configure situation (done bit): 1
+[Info] [2026-10-9 13:29:20] set OpenLastPath: F:/PDS_Workspace/AES_DSA/bdma_pcie_v0_4/project/generate_bitstream/bdma_pcie.sbit
+[Debug] [2026-10-9 13:29:20] begin to get device info from CFG file...
+[Debug] [2026-10-9 13:29:20] end to get device info from CFG file...
+[Debug] [2026-10-9 13:29:20] Begin to update graphic item and tree item ...
+[Debug] [2026-10-9 13:29:20] End to update graphic item and tree item ...
+[Debug] [2026-10-9 13:29:20] Begin to update graphic item and tree item ...
+[Debug] [2026-10-9 13:29:20] End to update graphic item and tree item ...
+[Debug] [2026-10-9 13:29:20] End to deal wiht chain from server.
+[Debug] [2026-10-9 13:29:20] end the exec of open cable cmd.
+[Debug] [2026-10-9 13:29:20] COMMAND[Open config cable] execute successfully, takes 4.1 secs.
+[Debug] [2026-10-9 13:29:20] Log::Print : COMMAND[Open config cable] execute successfully, takes 4.1 secs.
+[Debug] [2026-10-9 13:29:22] Begin to send programming cmd...
+[Debug] [2026-10-9 13:29:22] Send RPC:4
+[Debug] [2026-10-9 13:29:22] Begin to send program data.
+[Debug] [2026-10-9 13:29:22] End to send program data.
+[Debug] [2026-10-9 13:29:22] Send cmd [Program:20002] OK
+[Debug] [2026-10-9 13:29:22] The value of Progress is 6
+[Debug] [2026-10-9 13:29:23] The value of Progress is 10
+[Debug] [2026-10-9 13:29:23] The value of Progress is 15
+[Debug] [2026-10-9 13:29:23] The value of Progress is 20
+[Debug] [2026-10-9 13:29:24] The value of Progress is 25
+[Debug] [2026-10-9 13:29:24] The value of Progress is 30
+[Debug] [2026-10-9 13:29:24] The value of Progress is 35
+[Debug] [2026-10-9 13:29:25] The value of Progress is 40
+[Debug] [2026-10-9 13:29:25] The value of Progress is 45
+[Debug] [2026-10-9 13:29:25] The value of Progress is 50
+[Debug] [2026-10-9 13:29:26] The value of Progress is 55
+[Debug] [2026-10-9 13:29:26] The value of Progress is 60
+[Debug] [2026-10-9 13:29:26] The value of Progress is 65
+[Debug] [2026-10-9 13:29:27] The value of Progress is 70
+[Debug] [2026-10-9 13:29:27] The value of Progress is 75
+[Debug] [2026-10-9 13:29:27] The value of Progress is 80
+[Debug] [2026-10-9 13:29:28] The value of Progress is 85
+[Debug] [2026-10-9 13:29:28] The value of Progress is 90
+[Debug] [2026-10-9 13:29:28] The value of Progress is 95
+[Debug] [2026-10-9 13:29:29] The value of Progress is 100
+[Debug] [2026-10-9 13:29:29] COMMAND[Program] execute successfully, takes 6.9 secs.
+[Debug] [2026-10-9 13:29:29] End to send programming cmd.
+[Debug] [2026-10-9 13:29:29] Log::Print : [2026.10.09 13:29:29]Finish program F:/PDS_Workspace/AES_DSA/bdma_pcie_v0_4/project/generate_bitstream/bdma_pcie.sbit
+[Debug] [2026-10-9 13:29:29] Log::Print : The done bit is 1
+[Debug] [2026-10-9 13:29:29] Log::Print : COMMAND[Program] execute successfully, takes 6.9 secs.
+[Info] [2026-10-9 13:44:21] /***************************End Configration***************************/
+[Info] [2026-10-9 13:44:23] /***************************Start Configuration***************************/
+[Info] [2026-10-9 13:44:23] Path: H:/3588F/Tools/PDS_2024.2-SP1.2-ads/pango/PDS_2024.2-SP1.2-ads/bin
+[Info] [2026-10-9 13:44:23] Version: 187561
+[Info] [2026-10-9 13:44:24] Current Path: F:/PDS_Workspace/AES_DSA/bdma_pcie_v0_4/project
+[Info] [2026-10-9 13:44:24] PDS Dir Path: F:/PDS_Workspace/AES_DSA/bdma_pcie_v0_4/project
+[Info] [2026-10-9 13:44:27] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2026-10-9 13:44:27] Client Local host name:NATHAN_XI
+[Debug] [2026-10-9 13:44:27] Client Local Address:58.199.178.28
+[Debug] [2026-10-9 13:44:27] Client Local Address:192.168.1.100
+[Debug] [2026-10-9 13:44:27] Client Local Address:172.26.160.1
+[Debug] [2026-10-9 13:44:27] Client Local Address:192.168.84.1
+[Debug] [2026-10-9 13:44:27] Client Local Address:192.168.197.1
+[Debug] [2026-10-9 13:44:27] Server Address:127.0.0.1, Port:65420
+[Debug] [2026-10-9 13:44:27] Log::Print : Connecting to server[127.0.0.1 : 65420].
+[Info] [2026-10-9 13:44:28] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2026-10-9 13:44:28] Finish.
+[Info] [2026-10-9 13:44:28] Connect server succeeded
+[Debug] [2026-10-9 13:44:28] Send RPC:1
+[Debug] [2026-10-9 13:44:28] Send cmd [check version information:40004] OK
+[Debug] [2026-10-9 13:44:28] Log::Print : Connect to server[127.0.0.1 : 65420] successfully.
+[Debug] [2026-10-9 13:44:28] Send RPC:2
+[Debug] [2026-10-9 13:44:28] Send cmd [get_cable_paras:40010] OK
+[Debug] [2026-10-9 13:44:28] Begin to send initialize chain cmd...
+[Debug] [2026-10-9 13:44:28] Send RPC:3
+[Debug] [2026-10-9 13:44:28] Send cmd [Open config cable:20001] OK
+[Debug] [2026-10-9 13:44:28] End to send initialize chain cmd.
+[Debug] [2026-10-9 13:44:28] COMMAND[check version information] execute successfully, takes 0.3 secs.
+[Debug] [2026-10-9 13:44:28] Log::Print : COMMAND[check version information] execute successfully, takes 0.3 secs.
+[Debug] [2026-10-9 13:44:29] Before cable list reserve:1
+[Debug] [2026-10-9 13:44:29] After cable list reserve
+[Debug] [2026-10-9 13:44:29] COMMAND[get_cable_paras] execute successfully, takes 1.2 secs.
+[Debug] [2026-10-9 13:44:29] Log::Print : The cable List : 
+Cable index 0:USB Cable II/fffffffffffffffe 
+
+[Debug] [2026-10-9 13:44:29] Log::Print : COMMAND[get_cable_paras] execute successfully, takes 1.2 secs.
+[Debug] [2026-10-9 13:44:30] begin the exec of open cable cmd...
+[Debug] [2026-10-9 13:44:30] Begin to deal with chain from server...
+[Debug] [2026-10-9 13:44:30] Begin to set user chain...
+[Debug] [2026-10-9 13:44:30] End to set user chain.
+[Debug] [2026-10-9 13:44:30] Begin to update graphic item and tree item ...
+[Debug] [2026-10-9 13:44:30] End to update graphic item and tree item ...
+[Debug] [2026-10-9 13:44:30] Log::Print : PANGO USB CABLE II cable driver: D2XX DLL
+[Debug] [2026-10-9 13:44:30] Log::Print : PG2T390H
+[Debug] [2026-10-9 13:44:30] Log::Print : This device configure situation (done bit): 1
+[Info] [2026-10-9 13:44:32] set OpenLastPath: F:/PDS_Workspace/AES_DSA/bdma_pcie_v0_4/project/generate_bitstream/bdma_pcie.sbit
+[Debug] [2026-10-9 13:44:32] begin to get device info from CFG file...
+[Debug] [2026-10-9 13:44:32] end to get device info from CFG file...
+[Debug] [2026-10-9 13:44:32] Begin to update graphic item and tree item ...
+[Debug] [2026-10-9 13:44:32] End to update graphic item and tree item ...
+[Debug] [2026-10-9 13:44:32] Begin to update graphic item and tree item ...
+[Debug] [2026-10-9 13:44:32] End to update graphic item and tree item ...
+[Debug] [2026-10-9 13:44:32] End to deal wiht chain from server.
+[Debug] [2026-10-9 13:44:32] end the exec of open cable cmd.
+[Debug] [2026-10-9 13:44:32] COMMAND[Open config cable] execute successfully, takes 4.0 secs.
+[Debug] [2026-10-9 13:44:32] Log::Print : COMMAND[Open config cable] execute successfully, takes 4.0 secs.
+[Debug] [2026-10-9 13:44:35] Begin to send programming cmd...
+[Debug] [2026-10-9 13:44:35] Send RPC:4
+[Debug] [2026-10-9 13:44:35] Begin to send program data.
+[Debug] [2026-10-9 13:44:35] End to send program data.
+[Debug] [2026-10-9 13:44:35] Send cmd [Program:20002] OK
+[Debug] [2026-10-9 13:44:35] The value of Progress is 6
+[Debug] [2026-10-9 13:44:36] The value of Progress is 10
+[Debug] [2026-10-9 13:44:36] The value of Progress is 15
+[Debug] [2026-10-9 13:44:36] The value of Progress is 20
+[Debug] [2026-10-9 13:44:37] The value of Progress is 25
+[Debug] [2026-10-9 13:44:37] The value of Progress is 30
+[Debug] [2026-10-9 13:44:37] The value of Progress is 35
+[Debug] [2026-10-9 13:44:38] The value of Progress is 40
+[Debug] [2026-10-9 13:44:38] The value of Progress is 45
+[Debug] [2026-10-9 13:44:38] The value of Progress is 50
+[Debug] [2026-10-9 13:44:39] The value of Progress is 55
+[Debug] [2026-10-9 13:44:39] The value of Progress is 60
+[Debug] [2026-10-9 13:44:39] The value of Progress is 65
+[Debug] [2026-10-9 13:44:40] The value of Progress is 70
+[Debug] [2026-10-9 13:44:40] The value of Progress is 75
+[Debug] [2026-10-9 13:44:40] The value of Progress is 80
+[Debug] [2026-10-9 13:44:41] The value of Progress is 85
+[Debug] [2026-10-9 13:44:41] The value of Progress is 90
+[Debug] [2026-10-9 13:44:41] The value of Progress is 95
+[Debug] [2026-10-9 13:44:42] The value of Progress is 100
+[Debug] [2026-10-9 13:44:42] COMMAND[Program] execute successfully, takes 6.8 secs.
+[Debug] [2026-10-9 13:44:42] End to send programming cmd.
+[Debug] [2026-10-9 13:44:42] Log::Print : [2026.10.09 13:44:42]Finish program F:/PDS_Workspace/AES_DSA/bdma_pcie_v0_4/project/generate_bitstream/bdma_pcie.sbit
+[Debug] [2026-10-9 13:44:42] Log::Print : The done bit is 1
+[Debug] [2026-10-9 13:44:42] Log::Print : COMMAND[Program] execute successfully, takes 6.8 secs.
+[Info] [2026-10-9 13:44:58] /***************************End Configration***************************/
+[Info] [2026-10-9 18:41:39] /***************************Start Configuration***************************/
+[Info] [2026-10-9 18:41:39] Path: H:/3588F/Tools/PDS_2024.2-SP1.2-ads/pango/PDS_2024.2-SP1.2-ads/bin
+[Info] [2026-10-9 18:41:39] Version: 187561
+[Info] [2026-10-9 18:41:40] Current Path: F:/PDS_Workspace/AES_DSA/bdma_pcie_v0_4/project
+[Info] [2026-10-9 18:41:40] PDS Dir Path: F:/PDS_Workspace/AES_DSA/bdma_pcie_v0_4/project
+[Info] [2026-10-9 18:41:42] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2026-10-9 18:41:42] Client Local host name:NATHAN_XI
+[Debug] [2026-10-9 18:41:42] Client Local Address:58.199.178.28
+[Debug] [2026-10-9 18:41:42] Client Local Address:192.168.1.100
+[Debug] [2026-10-9 18:41:42] Client Local Address:172.26.160.1
+[Debug] [2026-10-9 18:41:42] Client Local Address:192.168.84.1
+[Debug] [2026-10-9 18:41:42] Client Local Address:192.168.197.1
+[Debug] [2026-10-9 18:41:42] Server Address:127.0.0.1, Port:65420
+[Debug] [2026-10-9 18:41:42] Log::Print : Connecting to server[127.0.0.1 : 65420].
+[Info] [2026-10-9 18:41:43] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2026-10-9 18:41:43] Finish.
+[Info] [2026-10-9 18:41:43] Connect server succeeded
+[Debug] [2026-10-9 18:41:43] Send RPC:1
+[Debug] [2026-10-9 18:41:43] Send cmd [check version information:40004] OK
+[Debug] [2026-10-9 18:41:43] Log::Print : Connect to server[127.0.0.1 : 65420] successfully.
+[Debug] [2026-10-9 18:41:43] Send RPC:2
+[Debug] [2026-10-9 18:41:43] Send cmd [get_cable_paras:40010] OK
+[Debug] [2026-10-9 18:41:43] Begin to send initialize chain cmd...
+[Debug] [2026-10-9 18:41:43] Send RPC:3
+[Debug] [2026-10-9 18:41:43] Send cmd [Open config cable:20001] OK
+[Debug] [2026-10-9 18:41:43] End to send initialize chain cmd.
+[Debug] [2026-10-9 18:41:43] COMMAND[check version information] execute successfully, takes 0.4 secs.
+[Debug] [2026-10-9 18:41:43] Log::Print : COMMAND[check version information] execute successfully, takes 0.4 secs.
+[Debug] [2026-10-9 18:41:44] Before cable list reserve:1
+[Debug] [2026-10-9 18:41:44] After cable list reserve
+[Debug] [2026-10-9 18:41:44] COMMAND[get_cable_paras] execute successfully, takes 1.1 secs.
+[Debug] [2026-10-9 18:41:44] Log::Print : The cable List : 
+Cable index 0:USB Cable II/fffffffffffffffe 
+
+[Debug] [2026-10-9 18:41:44] Log::Print : COMMAND[get_cable_paras] execute successfully, takes 1.1 secs.
+[Debug] [2026-10-9 18:41:44] begin the exec of open cable cmd...
+[Debug] [2026-10-9 18:41:44] Begin to deal with chain from server...
+[Debug] [2026-10-9 18:41:44] Begin to set user chain...
+[Debug] [2026-10-9 18:41:44] End to set user chain.
+[Debug] [2026-10-9 18:41:44] Begin to update graphic item and tree item ...
+[Debug] [2026-10-9 18:41:44] End to update graphic item and tree item ...
+[Debug] [2026-10-9 18:41:44] Log::Print : PANGO USB CABLE II cable driver: D2XX DLL
+[Debug] [2026-10-9 18:41:44] Log::Print : PG2T390H
+[Debug] [2026-10-9 18:41:44] Log::Print : This device configure situation (done bit): 1
+[Info] [2026-10-9 18:41:47] set OpenLastPath: F:/PDS_Workspace/AES_DSA/bdma_pcie_v0_4/project/generate_bitstream/bdma_pcie.sbit
+[Debug] [2026-10-9 18:41:47] begin to get device info from CFG file...
+[Debug] [2026-10-9 18:41:47] end to get device info from CFG file...
+[Debug] [2026-10-9 18:41:47] Begin to update graphic item and tree item ...
+[Debug] [2026-10-9 18:41:47] End to update graphic item and tree item ...
+[Debug] [2026-10-9 18:41:47] Begin to update graphic item and tree item ...
+[Debug] [2026-10-9 18:41:47] End to update graphic item and tree item ...
+[Debug] [2026-10-9 18:41:47] End to deal wiht chain from server.
+[Debug] [2026-10-9 18:41:47] end the exec of open cable cmd.
+[Debug] [2026-10-9 18:41:47] COMMAND[Open config cable] execute successfully, takes 4.4 secs.
+[Debug] [2026-10-9 18:41:47] Log::Print : COMMAND[Open config cable] execute successfully, takes 4.4 secs.
+[Debug] [2026-10-9 18:41:50] Begin to send programming cmd...
+[Debug] [2026-10-9 18:41:50] Send RPC:4
+[Debug] [2026-10-9 18:41:50] Begin to send program data.
+[Debug] [2026-10-9 18:41:50] End to send program data.
+[Debug] [2026-10-9 18:41:50] Send cmd [Program:20002] OK
+[Debug] [2026-10-9 18:41:51] The value of Progress is 6
+[Debug] [2026-10-9 18:41:51] The value of Progress is 10
+[Debug] [2026-10-9 18:41:52] The value of Progress is 15
+[Debug] [2026-10-9 18:41:52] The value of Progress is 20
+[Debug] [2026-10-9 18:41:52] The value of Progress is 25
+[Debug] [2026-10-9 18:41:53] The value of Progress is 30
+[Debug] [2026-10-9 18:41:53] The value of Progress is 35
+[Debug] [2026-10-9 18:41:53] The value of Progress is 40
+[Debug] [2026-10-9 18:41:54] The value of Progress is 45
+[Debug] [2026-10-9 18:41:54] The value of Progress is 50
+[Debug] [2026-10-9 18:41:54] The value of Progress is 55
+[Debug] [2026-10-9 18:41:55] The value of Progress is 60
+[Debug] [2026-10-9 18:41:55] The value of Progress is 65
+[Debug] [2026-10-9 18:41:55] The value of Progress is 70
+[Debug] [2026-10-9 18:41:56] The value of Progress is 75
+[Debug] [2026-10-9 18:41:56] The value of Progress is 80
+[Debug] [2026-10-9 18:41:56] The value of Progress is 85
+[Debug] [2026-10-9 18:41:57] The value of Progress is 90
+[Debug] [2026-10-9 18:41:57] The value of Progress is 95
+[Debug] [2026-10-9 18:41:57] The value of Progress is 100
+[Debug] [2026-10-9 18:41:57] COMMAND[Program] execute successfully, takes 6.8 secs.
+[Debug] [2026-10-9 18:41:57] End to send programming cmd.
+[Debug] [2026-10-9 18:41:57] Log::Print : [2026.10.09 18:41:57]Finish program F:/PDS_Workspace/AES_DSA/bdma_pcie_v0_4/project/generate_bitstream/bdma_pcie.sbit
+[Debug] [2026-10-9 18:41:57] Log::Print : The done bit is 1
+[Debug] [2026-10-9 18:41:57] Log::Print : COMMAND[Program] execute successfully, takes 6.8 secs.
+[Info] [2026-10-9 19:04:56] /***************************End Configration***************************/
+[Info] [2026-10-9 19:04:58] /***************************Start Configuration***************************/
+[Info] [2026-10-9 19:04:58] Path: H:/3588F/Tools/PDS_2024.2-SP1.2-ads/pango/PDS_2024.2-SP1.2-ads/bin
+[Info] [2026-10-9 19:04:58] Version: 187561
+[Info] [2026-10-9 19:04:59] Current Path: F:/PDS_Workspace/AES_DSA/bdma_pcie_v0_4/project
+[Info] [2026-10-9 19:04:59] PDS Dir Path: F:/PDS_Workspace/AES_DSA/bdma_pcie_v0_4/project
+[Info] [2026-10-9 19:05:02] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2026-10-9 19:05:02] Client Local host name:NATHAN_XI
+[Debug] [2026-10-9 19:05:02] Client Local Address:58.199.178.28
+[Debug] [2026-10-9 19:05:02] Client Local Address:192.168.1.100
+[Debug] [2026-10-9 19:05:02] Client Local Address:172.26.160.1
+[Debug] [2026-10-9 19:05:02] Client Local Address:192.168.84.1
+[Debug] [2026-10-9 19:05:02] Client Local Address:192.168.197.1
+[Debug] [2026-10-9 19:05:02] Server Address:127.0.0.1, Port:65420
+[Debug] [2026-10-9 19:05:02] Log::Print : Connecting to server[127.0.0.1 : 65420].
+[Info] [2026-10-9 19:05:02] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2026-10-9 19:05:02] Finish.
+[Info] [2026-10-9 19:05:02] Connect server succeeded
+[Debug] [2026-10-9 19:05:02] Send RPC:1
+[Debug] [2026-10-9 19:05:02] Send cmd [check version information:40004] OK
+[Debug] [2026-10-9 19:05:02] Log::Print : Connect to server[127.0.0.1 : 65420] successfully.
+[Debug] [2026-10-9 19:05:03] Send RPC:2
+[Debug] [2026-10-9 19:05:03] Send cmd [get_cable_paras:40010] OK
+[Debug] [2026-10-9 19:05:03] Begin to send initialize chain cmd...
+[Debug] [2026-10-9 19:05:03] Send RPC:3
+[Debug] [2026-10-9 19:05:03] Send cmd [Open config cable:20001] OK
+[Debug] [2026-10-9 19:05:03] End to send initialize chain cmd.
+[Debug] [2026-10-9 19:05:03] COMMAND[check version information] execute successfully, takes 0.4 secs.
+[Debug] [2026-10-9 19:05:03] Log::Print : COMMAND[check version information] execute successfully, takes 0.4 secs.
+[Debug] [2026-10-9 19:05:04] Before cable list reserve:1
+[Debug] [2026-10-9 19:05:04] After cable list reserve
+[Debug] [2026-10-9 19:05:04] COMMAND[get_cable_paras] execute successfully, takes 1.1 secs.
+[Debug] [2026-10-9 19:05:04] Log::Print : The cable List : 
+Cable index 0:USB Cable II/fffffffffffffffe 
+
+[Debug] [2026-10-9 19:05:04] Log::Print : COMMAND[get_cable_paras] execute successfully, takes 1.1 secs.
+[Debug] [2026-10-9 19:05:04] begin the exec of open cable cmd...
+[Debug] [2026-10-9 19:05:04] Begin to deal with chain from server...
+[Debug] [2026-10-9 19:05:04] Begin to set user chain...
+[Debug] [2026-10-9 19:05:04] End to set user chain.
+[Debug] [2026-10-9 19:05:04] Begin to update graphic item and tree item ...
+[Debug] [2026-10-9 19:05:04] End to update graphic item and tree item ...
+[Debug] [2026-10-9 19:05:04] Log::Print : PANGO USB CABLE II cable driver: D2XX DLL
+[Debug] [2026-10-9 19:05:04] Log::Print : PG2T390H
+[Debug] [2026-10-9 19:05:04] Log::Print : This device configure situation (done bit): 1
+[Info] [2026-10-9 19:05:06] set OpenLastPath: F:/PDS_Workspace/AES_DSA/bdma_pcie_v0_4/project/generate_bitstream/bdma_pcie.sbit
+[Debug] [2026-10-9 19:05:06] begin to get device info from CFG file...
+[Debug] [2026-10-9 19:05:06] end to get device info from CFG file...
+[Debug] [2026-10-9 19:05:07] Begin to update graphic item and tree item ...
+[Debug] [2026-10-9 19:05:07] End to update graphic item and tree item ...
+[Debug] [2026-10-9 19:05:07] Begin to update graphic item and tree item ...
+[Debug] [2026-10-9 19:05:07] End to update graphic item and tree item ...
+[Debug] [2026-10-9 19:05:07] End to deal wiht chain from server.
+[Debug] [2026-10-9 19:05:07] end the exec of open cable cmd.
+[Debug] [2026-10-9 19:05:07] COMMAND[Open config cable] execute successfully, takes 3.9 secs.
+[Debug] [2026-10-9 19:05:07] Log::Print : COMMAND[Open config cable] execute successfully, takes 3.9 secs.
+[Debug] [2026-10-9 19:05:11] Begin to send programming cmd...
+[Debug] [2026-10-9 19:05:11] Send RPC:4
+[Debug] [2026-10-9 19:05:11] Begin to send program data.
+[Debug] [2026-10-9 19:05:11] End to send program data.
+[Debug] [2026-10-9 19:05:11] Send cmd [Program:20002] OK
+[Debug] [2026-10-9 19:05:11] The value of Progress is 6
+[Debug] [2026-10-9 19:05:12] The value of Progress is 10
+[Debug] [2026-10-9 19:05:12] The value of Progress is 15
+[Debug] [2026-10-9 19:05:12] The value of Progress is 20
+[Debug] [2026-10-9 19:05:13] The value of Progress is 25
+[Debug] [2026-10-9 19:05:13] The value of Progress is 30
+[Debug] [2026-10-9 19:05:13] The value of Progress is 35
+[Debug] [2026-10-9 19:05:14] The value of Progress is 40
+[Debug] [2026-10-9 19:05:14] The value of Progress is 45
+[Debug] [2026-10-9 19:05:14] The value of Progress is 50
+[Debug] [2026-10-9 19:05:15] The value of Progress is 55
+[Debug] [2026-10-9 19:05:15] The value of Progress is 60
+[Debug] [2026-10-9 19:05:15] The value of Progress is 65
+[Debug] [2026-10-9 19:05:16] The value of Progress is 70
+[Debug] [2026-10-9 19:05:16] The value of Progress is 75
+[Debug] [2026-10-9 19:05:16] The value of Progress is 80
+[Debug] [2026-10-9 19:05:17] The value of Progress is 85
+[Debug] [2026-10-9 19:05:17] The value of Progress is 90
+[Debug] [2026-10-9 19:05:17] The value of Progress is 95
+[Debug] [2026-10-9 19:05:18] The value of Progress is 100
+[Debug] [2026-10-9 19:05:18] COMMAND[Program] execute successfully, takes 6.9 secs.
+[Debug] [2026-10-9 19:05:18] End to send programming cmd.
+[Debug] [2026-10-9 19:05:18] Log::Print : [2026.10.09 19:05:18]Finish program F:/PDS_Workspace/AES_DSA/bdma_pcie_v0_4/project/generate_bitstream/bdma_pcie.sbit
+[Debug] [2026-10-9 19:05:18] Log::Print : The done bit is 1
+[Debug] [2026-10-9 19:05:18] Log::Print : COMMAND[Program] execute successfully, takes 6.9 secs.
+[Info] [2026-10-9 19:16:10] /***************************End Configration***************************/
+[Info] [2026-10-9 19:16:50] /***************************Start Configuration***************************/
+[Info] [2026-10-9 19:16:50] Path: H:/3588F/Tools/PDS_2024.2-SP1.2-ads/pango/PDS_2024.2-SP1.2-ads/bin
+[Info] [2026-10-9 19:16:50] Version: 187561
+[Info] [2026-10-9 19:16:51] Current Path: F:/PDS_Workspace/AES_DSA/bdma_pcie_v0_4/project
+[Info] [2026-10-9 19:16:51] PDS Dir Path: F:/PDS_Workspace/AES_DSA/bdma_pcie_v0_4/project
+[Info] [2026-10-9 19:16:54] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2026-10-9 19:16:54] Client Local host name:NATHAN_XI
+[Debug] [2026-10-9 19:16:54] Client Local Address:58.199.178.28
+[Debug] [2026-10-9 19:16:54] Client Local Address:192.168.1.100
+[Debug] [2026-10-9 19:16:54] Client Local Address:172.26.160.1
+[Debug] [2026-10-9 19:16:54] Client Local Address:192.168.84.1
+[Debug] [2026-10-9 19:16:54] Client Local Address:192.168.197.1
+[Debug] [2026-10-9 19:16:54] Server Address:127.0.0.1, Port:65420
+[Debug] [2026-10-9 19:16:54] Log::Print : Connecting to server[127.0.0.1 : 65420].
+[Info] [2026-10-9 19:16:55] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2026-10-9 19:16:55] Finish.
+[Info] [2026-10-9 19:16:55] Connect server succeeded
+[Debug] [2026-10-9 19:16:55] Send RPC:1
+[Debug] [2026-10-9 19:16:55] Send cmd [check version information:40004] OK
+[Debug] [2026-10-9 19:16:55] Log::Print : Connect to server[127.0.0.1 : 65420] successfully.
+[Debug] [2026-10-9 19:16:55] Send RPC:2
+[Debug] [2026-10-9 19:16:55] Send cmd [get_cable_paras:40010] OK
+[Debug] [2026-10-9 19:16:55] Begin to send initialize chain cmd...
+[Debug] [2026-10-9 19:16:55] Send RPC:3
+[Debug] [2026-10-9 19:16:55] Send cmd [Open config cable:20001] OK
+[Debug] [2026-10-9 19:16:55] End to send initialize chain cmd.
+[Debug] [2026-10-9 19:16:55] COMMAND[check version information] execute successfully, takes 0.3 secs.
+[Debug] [2026-10-9 19:16:55] Log::Print : COMMAND[check version information] execute successfully, takes 0.3 secs.
+[Debug] [2026-10-9 19:16:56] Before cable list reserve:1
+[Debug] [2026-10-9 19:16:56] After cable list reserve
+[Debug] [2026-10-9 19:16:56] COMMAND[get_cable_paras] execute successfully, takes 1.1 secs.
+[Debug] [2026-10-9 19:16:56] Log::Print : The cable List : 
+Cable index 0:USB Cable II/fffffffffffffffe 
+
+[Debug] [2026-10-9 19:16:56] Log::Print : COMMAND[get_cable_paras] execute successfully, takes 1.1 secs.
+[Debug] [2026-10-9 19:16:56] begin the exec of open cable cmd...
+[Debug] [2026-10-9 19:16:56] Begin to deal with chain from server...
+[Debug] [2026-10-9 19:16:56] Begin to set user chain...
+[Debug] [2026-10-9 19:16:56] End to set user chain.
+[Debug] [2026-10-9 19:16:56] Begin to update graphic item and tree item ...
+[Debug] [2026-10-9 19:16:56] End to update graphic item and tree item ...
+[Debug] [2026-10-9 19:16:56] Log::Print : PANGO USB CABLE II cable driver: D2XX DLL
+[Debug] [2026-10-9 19:16:56] Log::Print : PG2T390H
+[Debug] [2026-10-9 19:16:56] Log::Print : This device configure situation (done bit): 1
+[Info] [2026-10-9 19:16:58] set OpenLastPath: F:/PDS_Workspace/AES_DSA/bdma_pcie_v0_4/project/generate_bitstream/bdma_pcie.sbit
+[Debug] [2026-10-9 19:16:58] begin to get device info from CFG file...
+[Debug] [2026-10-9 19:16:58] end to get device info from CFG file...
+[Debug] [2026-10-9 19:16:58] Begin to update graphic item and tree item ...
+[Debug] [2026-10-9 19:16:58] End to update graphic item and tree item ...
+[Debug] [2026-10-9 19:16:58] Begin to update graphic item and tree item ...
+[Debug] [2026-10-9 19:16:58] End to update graphic item and tree item ...
+[Debug] [2026-10-9 19:16:58] End to deal wiht chain from server.
+[Debug] [2026-10-9 19:16:58] end the exec of open cable cmd.
+[Debug] [2026-10-9 19:16:58] COMMAND[Open config cable] execute successfully, takes 3.6 secs.
+[Debug] [2026-10-9 19:16:58] Log::Print : COMMAND[Open config cable] execute successfully, takes 3.6 secs.
+[Debug] [2026-10-9 19:17:02] Begin to send programming cmd...
+[Debug] [2026-10-9 19:17:02] Send RPC:4
+[Debug] [2026-10-9 19:17:02] Begin to send program data.
+[Debug] [2026-10-9 19:17:02] End to send program data.
+[Debug] [2026-10-9 19:17:02] Send cmd [Program:20002] OK
+[Debug] [2026-10-9 19:17:02] The value of Progress is 6
+[Debug] [2026-10-9 19:17:03] The value of Progress is 10
+[Debug] [2026-10-9 19:17:03] The value of Progress is 15
+[Debug] [2026-10-9 19:17:03] The value of Progress is 20
+[Debug] [2026-10-9 19:17:04] The value of Progress is 25
+[Debug] [2026-10-9 19:17:04] The value of Progress is 30
+[Debug] [2026-10-9 19:17:04] The value of Progress is 35
+[Debug] [2026-10-9 19:17:05] The value of Progress is 40
+[Debug] [2026-10-9 19:17:05] The value of Progress is 45
+[Debug] [2026-10-9 19:17:05] The value of Progress is 50
+[Debug] [2026-10-9 19:17:06] The value of Progress is 55
+[Debug] [2026-10-9 19:17:06] The value of Progress is 60
+[Debug] [2026-10-9 19:17:06] The value of Progress is 65
+[Debug] [2026-10-9 19:17:07] The value of Progress is 70
+[Debug] [2026-10-9 19:17:07] The value of Progress is 75
+[Debug] [2026-10-9 19:17:07] The value of Progress is 80
+[Debug] [2026-10-9 19:17:08] The value of Progress is 85
+[Debug] [2026-10-9 19:17:08] The value of Progress is 90
+[Debug] [2026-10-9 19:17:08] The value of Progress is 95
+[Debug] [2026-10-9 19:17:09] The value of Progress is 100
+[Debug] [2026-10-9 19:17:09] COMMAND[Program] execute successfully, takes 6.9 secs.
+[Debug] [2026-10-9 19:17:09] End to send programming cmd.
+[Debug] [2026-10-9 19:17:09] Log::Print : [2026.10.09 19:17:09]Finish program F:/PDS_Workspace/AES_DSA/bdma_pcie_v0_4/project/generate_bitstream/bdma_pcie.sbit
+[Debug] [2026-10-9 19:17:09] Log::Print : The done bit is 1
+[Debug] [2026-10-9 19:17:09] Log::Print : COMMAND[Program] execute successfully, takes 6.9 secs.
+[Info] [2026-10-9 19:17:13] /***************************End Configration***************************/
+[Info] [2026-10-9 20:19:33] /***************************Start Configuration***************************/
+[Info] [2026-10-9 20:19:33] Path: H:/3588F/Tools/PDS_2024.2-SP1.2-ads/pango/PDS_2024.2-SP1.2-ads/bin
+[Info] [2026-10-9 20:19:33] Version: 187561
+[Info] [2026-10-9 20:19:34] Current Path: F:/PDS_Workspace/AES_DSA/bdma_pcie_v0_4/project
+[Info] [2026-10-9 20:19:34] PDS Dir Path: F:/PDS_Workspace/AES_DSA/bdma_pcie_v0_4/project
+[Info] [2026-10-9 20:19:37] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2026-10-9 20:19:37] Client Local host name:NATHAN_XI
+[Debug] [2026-10-9 20:19:37] Client Local Address:58.199.178.28
+[Debug] [2026-10-9 20:19:37] Client Local Address:192.168.1.100
+[Debug] [2026-10-9 20:19:37] Client Local Address:172.26.160.1
+[Debug] [2026-10-9 20:19:37] Client Local Address:192.168.84.1
+[Debug] [2026-10-9 20:19:37] Client Local Address:192.168.197.1
+[Debug] [2026-10-9 20:19:37] Server Address:127.0.0.1, Port:65420
+[Debug] [2026-10-9 20:19:37] Log::Print : Connecting to server[127.0.0.1 : 65420].
+[Info] [2026-10-9 20:19:37] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2026-10-9 20:19:37] Finish.
+[Info] [2026-10-9 20:19:37] Connect server succeeded
+[Debug] [2026-10-9 20:19:37] Send RPC:1
+[Debug] [2026-10-9 20:19:37] Send cmd [check version information:40004] OK
+[Debug] [2026-10-9 20:19:37] Log::Print : Connect to server[127.0.0.1 : 65420] successfully.
+[Debug] [2026-10-9 20:19:38] Send RPC:2
+[Debug] [2026-10-9 20:19:38] Send cmd [get_cable_paras:40010] OK
+[Debug] [2026-10-9 20:19:38] Begin to send initialize chain cmd...
+[Debug] [2026-10-9 20:19:38] Send RPC:3
+[Debug] [2026-10-9 20:19:38] Send cmd [Open config cable:20001] OK
+[Debug] [2026-10-9 20:19:38] End to send initialize chain cmd.
+[Debug] [2026-10-9 20:19:38] COMMAND[check version information] execute successfully, takes 0.4 secs.
+[Debug] [2026-10-9 20:19:38] Log::Print : COMMAND[check version information] execute successfully, takes 0.4 secs.
+[Debug] [2026-10-9 20:19:39] Before cable list reserve:1
+[Debug] [2026-10-9 20:19:39] After cable list reserve
+[Debug] [2026-10-9 20:19:39] COMMAND[get_cable_paras] execute successfully, takes 1.1 secs.
+[Debug] [2026-10-9 20:19:39] Log::Print : The cable List : 
+Cable index 0:USB Cable II/fffffffffffffffe 
+
+[Debug] [2026-10-9 20:19:39] Log::Print : COMMAND[get_cable_paras] execute successfully, takes 1.1 secs.
+[Debug] [2026-10-9 20:19:39] begin the exec of open cable cmd...
+[Debug] [2026-10-9 20:19:39] Begin to deal with chain from server...
+[Debug] [2026-10-9 20:19:39] Begin to set user chain...
+[Debug] [2026-10-9 20:19:39] End to set user chain.
+[Debug] [2026-10-9 20:19:39] Begin to update graphic item and tree item ...
+[Debug] [2026-10-9 20:19:39] End to update graphic item and tree item ...
+[Debug] [2026-10-9 20:19:39] Log::Print : PANGO USB CABLE II cable driver: D2XX DLL
+[Debug] [2026-10-9 20:19:39] Log::Print : PG2T390H
+[Debug] [2026-10-9 20:19:39] Log::Print : This device configure situation (done bit): 1
+[Info] [2026-10-9 20:19:41] set OpenLastPath: F:/PDS_Workspace/AES_DSA/bdma_pcie_v0_4/project/generate_bitstream/bdma_pcie.sbit
+[Debug] [2026-10-9 20:19:41] begin to get device info from CFG file...
+[Debug] [2026-10-9 20:19:41] end to get device info from CFG file...
+[Debug] [2026-10-9 20:19:41] Begin to update graphic item and tree item ...
+[Debug] [2026-10-9 20:19:41] End to update graphic item and tree item ...
+[Debug] [2026-10-9 20:19:41] Begin to update graphic item and tree item ...
+[Debug] [2026-10-9 20:19:41] End to update graphic item and tree item ...
+[Debug] [2026-10-9 20:19:41] End to deal wiht chain from server.
+[Debug] [2026-10-9 20:19:41] end the exec of open cable cmd.
+[Debug] [2026-10-9 20:19:41] COMMAND[Open config cable] execute successfully, takes 3.8 secs.
+[Debug] [2026-10-9 20:19:41] Log::Print : COMMAND[Open config cable] execute successfully, takes 3.8 secs.
+[Debug] [2026-10-9 20:19:43] Begin to send programming cmd...
+[Debug] [2026-10-9 20:19:43] Send RPC:4
+[Debug] [2026-10-9 20:19:43] Begin to send program data.
+[Debug] [2026-10-9 20:19:43] End to send program data.
+[Debug] [2026-10-9 20:19:43] Send cmd [Program:20002] OK
+[Debug] [2026-10-9 20:19:44] The value of Progress is 6
+[Debug] [2026-10-9 20:19:44] The value of Progress is 10
+[Debug] [2026-10-9 20:19:44] The value of Progress is 15
+[Debug] [2026-10-9 20:19:45] The value of Progress is 20
+[Debug] [2026-10-9 20:19:45] The value of Progress is 25
+[Debug] [2026-10-9 20:19:45] The value of Progress is 30
+[Debug] [2026-10-9 20:19:46] The value of Progress is 35
+[Debug] [2026-10-9 20:19:46] The value of Progress is 40
+[Debug] [2026-10-9 20:19:46] The value of Progress is 45
+[Debug] [2026-10-9 20:19:47] The value of Progress is 50
+[Debug] [2026-10-9 20:19:47] The value of Progress is 55
+[Debug] [2026-10-9 20:19:48] The value of Progress is 60
+[Debug] [2026-10-9 20:19:48] The value of Progress is 65
+[Debug] [2026-10-9 20:19:48] The value of Progress is 70
+[Debug] [2026-10-9 20:19:49] The value of Progress is 75
+[Debug] [2026-10-9 20:19:49] The value of Progress is 80
+[Debug] [2026-10-9 20:19:49] The value of Progress is 85
+[Debug] [2026-10-9 20:19:50] The value of Progress is 90
+[Debug] [2026-10-9 20:19:50] The value of Progress is 95
+[Debug] [2026-10-9 20:19:50] The value of Progress is 100
+[Debug] [2026-10-9 20:19:50] COMMAND[Program] execute successfully, takes 6.9 secs.
+[Debug] [2026-10-9 20:19:50] End to send programming cmd.
+[Debug] [2026-10-9 20:19:50] Log::Print : [2026.10.09 20:19:50]Finish program F:/PDS_Workspace/AES_DSA/bdma_pcie_v0_4/project/generate_bitstream/bdma_pcie.sbit
+[Debug] [2026-10-9 20:19:50] Log::Print : The done bit is 1
+[Debug] [2026-10-9 20:19:50] Log::Print : COMMAND[Program] execute successfully, takes 6.9 secs.
+[Info] [2026-10-9 20:19:52] /***************************End Configration***************************/
+[Info] [2026-10-9 20:50:25] /***************************Start Configuration***************************/
+[Info] [2026-10-9 20:50:25] Path: H:/3588F/Tools/PDS_2024.2-SP1.2-ads/pango/PDS_2024.2-SP1.2-ads/bin
+[Info] [2026-10-9 20:50:25] Version: 187561
+[Info] [2026-10-9 20:50:26] Current Path: F:/PDS_Workspace/AES_DSA/bdma_pcie_v0_4/project
+[Info] [2026-10-9 20:50:26] PDS Dir Path: F:/PDS_Workspace/AES_DSA/bdma_pcie_v0_4/project
+[Info] [2026-10-9 20:50:29] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2026-10-9 20:50:29] Client Local host name:NATHAN_XI
+[Debug] [2026-10-9 20:50:29] Client Local Address:58.199.178.28
+[Debug] [2026-10-9 20:50:29] Client Local Address:192.168.1.100
+[Debug] [2026-10-9 20:50:29] Client Local Address:172.26.160.1
+[Debug] [2026-10-9 20:50:29] Client Local Address:192.168.84.1
+[Debug] [2026-10-9 20:50:29] Client Local Address:192.168.197.1
+[Debug] [2026-10-9 20:50:29] Server Address:127.0.0.1, Port:65420
+[Debug] [2026-10-9 20:50:29] Log::Print : Connecting to server[127.0.0.1 : 65420].
+[Info] [2026-10-9 20:50:30] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2026-10-9 20:50:30] Finish.
+[Info] [2026-10-9 20:50:30] Connect server succeeded
+[Debug] [2026-10-9 20:50:30] Send RPC:1
+[Debug] [2026-10-9 20:50:30] Send cmd [check version information:40004] OK
+[Debug] [2026-10-9 20:50:30] Log::Print : Connect to server[127.0.0.1 : 65420] successfully.
+[Debug] [2026-10-9 20:50:30] Send RPC:2
+[Debug] [2026-10-9 20:50:30] Send cmd [get_cable_paras:40010] OK
+[Debug] [2026-10-9 20:50:30] Begin to send initialize chain cmd...
+[Debug] [2026-10-9 20:50:30] Send RPC:3
+[Debug] [2026-10-9 20:50:30] Send cmd [Open config cable:20001] OK
+[Debug] [2026-10-9 20:50:30] End to send initialize chain cmd.
+[Debug] [2026-10-9 20:50:30] COMMAND[check version information] execute successfully, takes 0.4 secs.
+[Debug] [2026-10-9 20:50:30] Log::Print : COMMAND[check version information] execute successfully, takes 0.4 secs.
+[Debug] [2026-10-9 20:50:31] Before cable list reserve:1
+[Debug] [2026-10-9 20:50:31] After cable list reserve
+[Debug] [2026-10-9 20:50:31] COMMAND[get_cable_paras] execute successfully, takes 1.1 secs.
+[Debug] [2026-10-9 20:50:31] Log::Print : The cable List : 
+Cable index 0:USB Cable II/fffffffffffffffe 
+
+[Debug] [2026-10-9 20:50:31] Log::Print : COMMAND[get_cable_paras] execute successfully, takes 1.1 secs.
+[Debug] [2026-10-9 20:50:32] begin the exec of open cable cmd...
+[Debug] [2026-10-9 20:50:32] Begin to deal with chain from server...
+[Debug] [2026-10-9 20:50:32] Begin to set user chain...
+[Debug] [2026-10-9 20:50:32] End to set user chain.
+[Debug] [2026-10-9 20:50:32] Begin to update graphic item and tree item ...
+[Debug] [2026-10-9 20:50:32] End to update graphic item and tree item ...
+[Debug] [2026-10-9 20:50:32] Log::Print : PANGO USB CABLE II cable driver: D2XX DLL
+[Debug] [2026-10-9 20:50:32] Log::Print : PG2T390H
+[Debug] [2026-10-9 20:50:32] Log::Print : This device configure situation (done bit): 1
+[Info] [2026-10-9 20:50:35] set OpenLastPath: F:/PDS_Workspace/AES_DSA/bdma_pcie_v0_4/project/generate_bitstream/bdma_pcie.sbit
+[Debug] [2026-10-9 20:50:35] begin to get device info from CFG file...
+[Debug] [2026-10-9 20:50:35] end to get device info from CFG file...
+[Debug] [2026-10-9 20:50:35] Begin to update graphic item and tree item ...
+[Debug] [2026-10-9 20:50:35] End to update graphic item and tree item ...
+[Debug] [2026-10-9 20:50:35] Begin to update graphic item and tree item ...
+[Debug] [2026-10-9 20:50:35] End to update graphic item and tree item ...
+[Debug] [2026-10-9 20:50:35] End to deal wiht chain from server.
+[Debug] [2026-10-9 20:50:35] end the exec of open cable cmd.
+[Debug] [2026-10-9 20:50:35] COMMAND[Open config cable] execute successfully, takes 4.5 secs.
+[Debug] [2026-10-9 20:50:35] Log::Print : COMMAND[Open config cable] execute successfully, takes 4.5 secs.
+[Debug] [2026-10-9 20:50:37] Begin to send programming cmd...
+[Debug] [2026-10-9 20:50:37] Send RPC:4
+[Debug] [2026-10-9 20:50:37] Begin to send program data.
+[Debug] [2026-10-9 20:50:37] End to send program data.
+[Debug] [2026-10-9 20:50:37] Send cmd [Program:20002] OK
+[Debug] [2026-10-9 20:50:37] The value of Progress is 6
+[Debug] [2026-10-9 20:50:37] The value of Progress is 10
+[Debug] [2026-10-9 20:50:38] The value of Progress is 15
+[Debug] [2026-10-9 20:50:38] The value of Progress is 20
+[Debug] [2026-10-9 20:50:38] The value of Progress is 25
+[Debug] [2026-10-9 20:50:39] The value of Progress is 30
+[Debug] [2026-10-9 20:50:39] The value of Progress is 35
+[Debug] [2026-10-9 20:50:39] The value of Progress is 40
+[Debug] [2026-10-9 20:50:40] The value of Progress is 45
+[Debug] [2026-10-9 20:50:40] The value of Progress is 50
+[Debug] [2026-10-9 20:50:40] The value of Progress is 55
+[Debug] [2026-10-9 20:50:41] The value of Progress is 60
+[Debug] [2026-10-9 20:50:41] The value of Progress is 65
+[Debug] [2026-10-9 20:50:42] The value of Progress is 70
+[Debug] [2026-10-9 20:50:42] The value of Progress is 75
+[Debug] [2026-10-9 20:50:42] The value of Progress is 80
+[Debug] [2026-10-9 20:50:43] The value of Progress is 85
+[Debug] [2026-10-9 20:50:43] The value of Progress is 90
+[Debug] [2026-10-9 20:50:43] The value of Progress is 95
+[Debug] [2026-10-9 20:50:44] The value of Progress is 100
+[Debug] [2026-10-9 20:50:44] COMMAND[Program] execute successfully, takes 7.0 secs.
+[Debug] [2026-10-9 20:50:44] End to send programming cmd.
+[Debug] [2026-10-9 20:50:44] Log::Print : [2026.10.09 20:50:44]Finish program F:/PDS_Workspace/AES_DSA/bdma_pcie_v0_4/project/generate_bitstream/bdma_pcie.sbit
+[Debug] [2026-10-9 20:50:44] Log::Print : The done bit is 1
+[Debug] [2026-10-9 20:50:44] Log::Print : COMMAND[Program] execute successfully, takes 7.0 secs.
+[Info] [2026-10-9 20:50:59] /***************************End Configration***************************/
+[Info] [2026-10-9 21:08:44] /***************************Start Configuration***************************/
+[Info] [2026-10-9 21:08:44] Path: H:/3588F/Tools/PDS_2024.2-SP1.2-ads/pango/PDS_2024.2-SP1.2-ads/bin
+[Info] [2026-10-9 21:08:44] Version: 187561
+[Info] [2026-10-9 21:08:45] Current Path: F:/PDS_Workspace/AES_DSA/bdma_pcie_v0_4/project
+[Info] [2026-10-9 21:08:45] PDS Dir Path: F:/PDS_Workspace/AES_DSA/bdma_pcie_v0_4/project
+[Info] [2026-10-9 21:08:48] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2026-10-9 21:08:48] Client Local host name:NATHAN_XI
+[Debug] [2026-10-9 21:08:48] Client Local Address:58.199.178.28
+[Debug] [2026-10-9 21:08:48] Client Local Address:192.168.1.100
+[Debug] [2026-10-9 21:08:48] Client Local Address:172.26.160.1
+[Debug] [2026-10-9 21:08:48] Client Local Address:192.168.84.1
+[Debug] [2026-10-9 21:08:48] Client Local Address:192.168.197.1
+[Debug] [2026-10-9 21:08:48] Server Address:127.0.0.1, Port:65420
+[Debug] [2026-10-9 21:08:48] Log::Print : Connecting to server[127.0.0.1 : 65420].
+[Info] [2026-10-9 21:08:48] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2026-10-9 21:08:48] Finish.
+[Info] [2026-10-9 21:08:48] Connect server succeeded
+[Debug] [2026-10-9 21:08:48] Send RPC:1
+[Debug] [2026-10-9 21:08:48] Send cmd [check version information:40004] OK
+[Debug] [2026-10-9 21:08:48] Log::Print : Connect to server[127.0.0.1 : 65420] successfully.
+[Debug] [2026-10-9 21:08:49] Send RPC:2
+[Debug] [2026-10-9 21:08:49] Send cmd [get_cable_paras:40010] OK
+[Debug] [2026-10-9 21:08:49] Begin to send initialize chain cmd...
+[Debug] [2026-10-9 21:08:49] Send RPC:3
+[Debug] [2026-10-9 21:08:49] Send cmd [Open config cable:20001] OK
+[Debug] [2026-10-9 21:08:49] End to send initialize chain cmd.
+[Debug] [2026-10-9 21:08:49] COMMAND[check version information] execute successfully, takes 0.3 secs.
+[Debug] [2026-10-9 21:08:49] Log::Print : COMMAND[check version information] execute successfully, takes 0.3 secs.
+[Debug] [2026-10-9 21:08:50] Before cable list reserve:1
+[Debug] [2026-10-9 21:08:50] After cable list reserve
+[Debug] [2026-10-9 21:08:50] COMMAND[get_cable_paras] execute successfully, takes 1.2 secs.
+[Debug] [2026-10-9 21:08:50] Log::Print : The cable List : 
+Cable index 0:USB Cable II/fffffffffffffffe 
+
+[Debug] [2026-10-9 21:08:50] Log::Print : COMMAND[get_cable_paras] execute successfully, takes 1.2 secs.
+[Debug] [2026-10-9 21:08:50] begin the exec of open cable cmd...
+[Debug] [2026-10-9 21:08:50] Begin to deal with chain from server...
+[Debug] [2026-10-9 21:08:50] Begin to set user chain...
+[Debug] [2026-10-9 21:08:50] End to set user chain.
+[Debug] [2026-10-9 21:08:50] Begin to update graphic item and tree item ...
+[Debug] [2026-10-9 21:08:50] End to update graphic item and tree item ...
+[Debug] [2026-10-9 21:08:50] Log::Print : PANGO USB CABLE II cable driver: D2XX DLL
+[Debug] [2026-10-9 21:08:50] Log::Print : PG2T390H
+[Debug] [2026-10-9 21:08:50] Log::Print : This device configure situation (done bit): 1
+[Info] [2026-10-9 21:08:52] set OpenLastPath: F:/PDS_Workspace/AES_DSA/bdma_pcie_v0_4/project/generate_bitstream/bdma_pcie.sbit
+[Debug] [2026-10-9 21:08:52] begin to get device info from CFG file...
+[Debug] [2026-10-9 21:08:52] end to get device info from CFG file...
+[Debug] [2026-10-9 21:08:52] Begin to update graphic item and tree item ...
+[Debug] [2026-10-9 21:08:52] End to update graphic item and tree item ...
+[Debug] [2026-10-9 21:08:52] Begin to update graphic item and tree item ...
+[Debug] [2026-10-9 21:08:52] End to update graphic item and tree item ...
+[Debug] [2026-10-9 21:08:52] End to deal wiht chain from server.
+[Debug] [2026-10-9 21:08:52] end the exec of open cable cmd.
+[Debug] [2026-10-9 21:08:52] COMMAND[Open config cable] execute successfully, takes 3.8 secs.
+[Debug] [2026-10-9 21:08:52] Log::Print : COMMAND[Open config cable] execute successfully, takes 3.8 secs.
+[Debug] [2026-10-9 21:08:54] Begin to send programming cmd...
+[Debug] [2026-10-9 21:08:54] Send RPC:4
+[Debug] [2026-10-9 21:08:54] Begin to send program data.
+[Debug] [2026-10-9 21:08:54] End to send program data.
+[Debug] [2026-10-9 21:08:54] Send cmd [Program:20002] OK
+[Debug] [2026-10-9 21:08:55] The value of Progress is 6
+[Debug] [2026-10-9 21:08:55] The value of Progress is 10
+[Debug] [2026-10-9 21:08:55] The value of Progress is 15
+[Debug] [2026-10-9 21:08:56] The value of Progress is 20
+[Debug] [2026-10-9 21:08:56] The value of Progress is 25
+[Debug] [2026-10-9 21:08:56] The value of Progress is 30
+[Debug] [2026-10-9 21:08:57] The value of Progress is 35
+[Debug] [2026-10-9 21:08:57] The value of Progress is 40
+[Debug] [2026-10-9 21:08:58] The value of Progress is 45
+[Debug] [2026-10-9 21:08:58] The value of Progress is 50
+[Debug] [2026-10-9 21:08:58] The value of Progress is 55
+[Debug] [2026-10-9 21:08:59] The value of Progress is 60
+[Debug] [2026-10-9 21:08:59] The value of Progress is 65
+[Debug] [2026-10-9 21:08:59] The value of Progress is 70
+[Debug] [2026-10-9 21:09:00] The value of Progress is 75
+[Debug] [2026-10-9 21:09:00] The value of Progress is 80
+[Debug] [2026-10-9 21:09:00] The value of Progress is 85
+[Debug] [2026-10-9 21:09:01] The value of Progress is 90
+[Debug] [2026-10-9 21:09:01] The value of Progress is 95
+[Debug] [2026-10-9 21:09:01] The value of Progress is 100
+[Debug] [2026-10-9 21:09:01] COMMAND[Program] execute successfully, takes 7.0 secs.
+[Debug] [2026-10-9 21:09:01] End to send programming cmd.
+[Debug] [2026-10-9 21:09:01] Log::Print : [2026.10.09 21:09:01]Finish program F:/PDS_Workspace/AES_DSA/bdma_pcie_v0_4/project/generate_bitstream/bdma_pcie.sbit
+[Debug] [2026-10-9 21:09:01] Log::Print : The done bit is 1
+[Debug] [2026-10-9 21:09:01] Log::Print : COMMAND[Program] execute successfully, takes 7.0 secs.
+[Info] [2026-10-9 21:09:09] /***************************End Configration***************************/
+[Info] [2026-10-9 21:38:33] /***************************Start Configuration***************************/
+[Info] [2026-10-9 21:38:33] Path: H:/3588F/Tools/PDS_2024.2-SP1.2-ads/pango/PDS_2024.2-SP1.2-ads/bin
+[Info] [2026-10-9 21:38:33] Version: 187561
+[Info] [2026-10-9 21:38:34] Current Path: F:/PDS_Workspace/AES_DSA/bdma_pcie_v0_4/project
+[Info] [2026-10-9 21:38:34] PDS Dir Path: F:/PDS_Workspace/AES_DSA/bdma_pcie_v0_4/project
+[Info] [2026-10-9 21:38:37] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2026-10-9 21:38:37] Client Local host name:NATHAN_XI
+[Debug] [2026-10-9 21:38:37] Client Local Address:58.199.178.28
+[Debug] [2026-10-9 21:38:37] Client Local Address:192.168.1.100
+[Debug] [2026-10-9 21:38:37] Client Local Address:172.26.160.1
+[Debug] [2026-10-9 21:38:37] Client Local Address:192.168.84.1
+[Debug] [2026-10-9 21:38:37] Client Local Address:192.168.197.1
+[Debug] [2026-10-9 21:38:37] Server Address:127.0.0.1, Port:65420
+[Debug] [2026-10-9 21:38:37] Log::Print : Connecting to server[127.0.0.1 : 65420].
+[Info] [2026-10-9 21:38:37] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2026-10-9 21:38:37] Finish.
+[Info] [2026-10-9 21:38:37] Connect server succeeded
+[Debug] [2026-10-9 21:38:37] Send RPC:1
+[Debug] [2026-10-9 21:38:37] Send cmd [check version information:40004] OK
+[Debug] [2026-10-9 21:38:37] Log::Print : Connect to server[127.0.0.1 : 65420] successfully.
+[Debug] [2026-10-9 21:38:38] Send RPC:2
+[Debug] [2026-10-9 21:38:38] Send cmd [get_cable_paras:40010] OK
+[Debug] [2026-10-9 21:38:38] Begin to send initialize chain cmd...
+[Debug] [2026-10-9 21:38:38] Send RPC:3
+[Debug] [2026-10-9 21:38:38] Send cmd [Open config cable:20001] OK
+[Debug] [2026-10-9 21:38:38] End to send initialize chain cmd.
+[Debug] [2026-10-9 21:38:38] COMMAND[check version information] execute successfully, takes 0.3 secs.
+[Debug] [2026-10-9 21:38:38] Log::Print : COMMAND[check version information] execute successfully, takes 0.3 secs.
+[Debug] [2026-10-9 21:38:39] Before cable list reserve:1
+[Debug] [2026-10-9 21:38:39] After cable list reserve
+[Debug] [2026-10-9 21:38:39] COMMAND[get_cable_paras] execute successfully, takes 1.1 secs.
+[Debug] [2026-10-9 21:38:39] Log::Print : The cable List : 
+Cable index 0:USB Cable II/fffffffffffffffe 
+
+[Debug] [2026-10-9 21:38:39] Log::Print : COMMAND[get_cable_paras] execute successfully, takes 1.1 secs.
+[Debug] [2026-10-9 21:38:39] begin the exec of open cable cmd...
+[Debug] [2026-10-9 21:38:39] Begin to deal with chain from server...
+[Debug] [2026-10-9 21:38:39] Begin to set user chain...
+[Debug] [2026-10-9 21:38:39] End to set user chain.
+[Debug] [2026-10-9 21:38:39] Begin to update graphic item and tree item ...
+[Debug] [2026-10-9 21:38:39] End to update graphic item and tree item ...
+[Debug] [2026-10-9 21:38:39] Log::Print : PANGO USB CABLE II cable driver: D2XX DLL
+[Debug] [2026-10-9 21:38:39] Log::Print : PG2T390H
+[Debug] [2026-10-9 21:38:39] Log::Print : This device configure situation (done bit): 1
+[Info] [2026-10-9 21:38:41] set OpenLastPath: F:/PDS_Workspace/AES_DSA/bdma_pcie_v0_4/project/generate_bitstream/bdma_pcie.sbit
+[Debug] [2026-10-9 21:38:41] begin to get device info from CFG file...
+[Debug] [2026-10-9 21:38:41] end to get device info from CFG file...
+[Debug] [2026-10-9 21:38:41] Begin to update graphic item and tree item ...
+[Debug] [2026-10-9 21:38:41] End to update graphic item and tree item ...
+[Debug] [2026-10-9 21:38:41] Begin to update graphic item and tree item ...
+[Debug] [2026-10-9 21:38:41] End to update graphic item and tree item ...
+[Debug] [2026-10-9 21:38:41] End to deal wiht chain from server.
+[Debug] [2026-10-9 21:38:41] end the exec of open cable cmd.
+[Debug] [2026-10-9 21:38:41] COMMAND[Open config cable] execute successfully, takes 3.5 secs.
+[Debug] [2026-10-9 21:38:41] Log::Print : COMMAND[Open config cable] execute successfully, takes 3.5 secs.
+[Debug] [2026-10-9 21:38:43] Begin to send programming cmd...
+[Debug] [2026-10-9 21:38:43] Send RPC:4
+[Debug] [2026-10-9 21:38:43] Begin to send program data.
+[Debug] [2026-10-9 21:38:43] End to send program data.
+[Debug] [2026-10-9 21:38:43] Send cmd [Program:20002] OK
+[Debug] [2026-10-9 21:38:44] The value of Progress is 6
+[Debug] [2026-10-9 21:38:44] The value of Progress is 10
+[Debug] [2026-10-9 21:38:44] The value of Progress is 15
+[Debug] [2026-10-9 21:38:45] The value of Progress is 20
+[Debug] [2026-10-9 21:38:45] The value of Progress is 25
+[Debug] [2026-10-9 21:38:45] The value of Progress is 30
+[Debug] [2026-10-9 21:38:46] The value of Progress is 35
+[Debug] [2026-10-9 21:38:46] The value of Progress is 40
+[Debug] [2026-10-9 21:38:46] The value of Progress is 45
+[Debug] [2026-10-9 21:38:47] The value of Progress is 50
+[Debug] [2026-10-9 21:38:47] The value of Progress is 55
+[Debug] [2026-10-9 21:38:47] The value of Progress is 60
+[Debug] [2026-10-9 21:38:48] The value of Progress is 65
+[Debug] [2026-10-9 21:38:48] The value of Progress is 70
+[Debug] [2026-10-9 21:38:48] The value of Progress is 75
+[Debug] [2026-10-9 21:38:49] The value of Progress is 80
+[Debug] [2026-10-9 21:38:49] The value of Progress is 85
+[Debug] [2026-10-9 21:38:49] The value of Progress is 90
+[Debug] [2026-10-9 21:38:50] The value of Progress is 95
+[Debug] [2026-10-9 21:38:50] The value of Progress is 100
+[Debug] [2026-10-9 21:38:50] COMMAND[Program] execute successfully, takes 6.8 secs.
+[Debug] [2026-10-9 21:38:50] End to send programming cmd.
+[Debug] [2026-10-9 21:38:50] Log::Print : [2026.10.09 21:38:50]Finish program F:/PDS_Workspace/AES_DSA/bdma_pcie_v0_4/project/generate_bitstream/bdma_pcie.sbit
+[Debug] [2026-10-9 21:38:50] Log::Print : The done bit is 1
+[Debug] [2026-10-9 21:38:50] Log::Print : COMMAND[Program] execute successfully, takes 6.8 secs.
+[Info] [2026-10-9 21:42:20] /***************************End Configration***************************/
+[Info] [2026-10-9 23:03:29] /***************************Start Configuration***************************/
+[Info] [2026-10-9 23:03:29] Path: H:/3588F/Tools/PDS_2024.2-SP1.2-ads/pango/PDS_2024.2-SP1.2-ads/bin
+[Info] [2026-10-9 23:03:29] Version: 187561
+[Info] [2026-10-9 23:03:30] Current Path: F:/PDS_Workspace/AES_DSA/bdma_pcie_v0_4/project
+[Info] [2026-10-9 23:03:30] PDS Dir Path: F:/PDS_Workspace/AES_DSA/bdma_pcie_v0_4/project
+[Debug] [2026-10-9 23:03:36] Begin to Converte file.
+[Debug] [2026-10-9 23:03:59] begin to parse sfc file.
+[Debug] [2026-10-9 23:03:59] begin to get device info from CFG file...
+[Debug] [2026-10-9 23:03:59] end to get device info from CFG file...
+[Debug] [2026-10-9 23:03:59] begin to get device info from CFG file...
+[Debug] [2026-10-9 23:03:59] end to get device info from CFG file...
+[Debug] [2026-10-9 23:03:59] end to parse sfc file.
+[Debug] [2026-10-9 23:03:59] Log::Print : The Start Address of bit file F:/PDS_Workspace/AES_DSA/bdma_pcie_v0_4/project/generate_bitstream/bdma_pcie.sbit: 0x0
+[Debug] [2026-10-9 23:04:00] End to Converte file.
+[Info] [2026-10-9 23:04:02] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2026-10-9 23:04:02] Client Local host name:NATHAN_XI
+[Debug] [2026-10-9 23:04:02] Client Local Address:58.199.178.28
+[Debug] [2026-10-9 23:04:02] Client Local Address:192.168.1.100
+[Debug] [2026-10-9 23:04:02] Client Local Address:172.26.160.1
+[Debug] [2026-10-9 23:04:02] Client Local Address:192.168.84.1
+[Debug] [2026-10-9 23:04:02] Client Local Address:192.168.197.1
+[Debug] [2026-10-9 23:04:02] Server Address:127.0.0.1, Port:65420
+[Debug] [2026-10-9 23:04:02] Log::Print : Connecting to server[127.0.0.1 : 65420].
+[Info] [2026-10-9 23:04:03] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2026-10-9 23:04:03] Finish.
+[Info] [2026-10-9 23:04:03] Connect server succeeded
+[Debug] [2026-10-9 23:04:03] Send RPC:1
+[Debug] [2026-10-9 23:04:03] Send cmd [check version information:40004] OK
+[Debug] [2026-10-9 23:04:03] Log::Print : Connect to server[127.0.0.1 : 65420] successfully.
+[Debug] [2026-10-9 23:04:03] Send RPC:2
+[Debug] [2026-10-9 23:04:03] Send cmd [get_cable_paras:40010] OK
+[Debug] [2026-10-9 23:04:03] Begin to send initialize chain cmd...
+[Debug] [2026-10-9 23:04:03] Send RPC:3
+[Debug] [2026-10-9 23:04:03] Send cmd [Open config cable:20001] OK
+[Debug] [2026-10-9 23:04:03] End to send initialize chain cmd.
+[Debug] [2026-10-9 23:04:03] COMMAND[check version information] execute successfully, takes 0.4 secs.
+[Debug] [2026-10-9 23:04:03] Log::Print : COMMAND[check version information] execute successfully, takes 0.4 secs.
+[Debug] [2026-10-9 23:04:04] Before cable list reserve:1
+[Debug] [2026-10-9 23:04:04] After cable list reserve
+[Debug] [2026-10-9 23:04:04] COMMAND[get_cable_paras] execute successfully, takes 1.2 secs.
+[Debug] [2026-10-9 23:04:04] Log::Print : The cable List : 
+Cable index 0:USB Cable II/fffffffffffffffe 
+
+[Debug] [2026-10-9 23:04:04] Log::Print : COMMAND[get_cable_paras] execute successfully, takes 1.2 secs.
+[Debug] [2026-10-9 23:04:05] begin the exec of open cable cmd...
+[Debug] [2026-10-9 23:04:05] Begin to deal with chain from server...
+[Debug] [2026-10-9 23:04:05] Begin to set user chain...
+[Debug] [2026-10-9 23:04:05] End to set user chain.
+[Debug] [2026-10-9 23:04:05] Begin to update graphic item and tree item ...
+[Debug] [2026-10-9 23:04:05] End to update graphic item and tree item ...
+[Debug] [2026-10-9 23:04:05] Log::Print : PANGO USB CABLE II cable driver: D2XX DLL
+[Debug] [2026-10-9 23:04:05] Log::Print : PG2T390H
+[Debug] [2026-10-9 23:04:05] Log::Print : This device configure situation (done bit): 1
+[Debug] [2026-10-9 23:04:06] selected file name is empty and ignore.
+[Debug] [2026-10-9 23:04:06] Begin to update graphic item and tree item ...
+[Debug] [2026-10-9 23:04:06] End to update graphic item and tree item ...
+[Debug] [2026-10-9 23:04:06] End to deal wiht chain from server.
+[Debug] [2026-10-9 23:04:06] end the exec of open cable cmd.
+[Debug] [2026-10-9 23:04:06] COMMAND[Open config cable] execute successfully, takes 2.6 secs.
+[Debug] [2026-10-9 23:04:06] Log::Print : COMMAND[Open config cable] execute successfully, takes 2.6 secs.
+[Debug] [2026-10-9 23:04:09] Begin to send scan outer flash cmd...
+[Debug] [2026-10-9 23:04:09] Send RPC:4
+[Debug] [2026-10-9 23:04:09] Send cmd [Scan Outer SPI Flash:20300] OK
+[Debug] [2026-10-9 23:04:09] End to send scan outer flash cmd.
+[Debug] [2026-10-9 23:04:09] begin to exec scan jtag flash cmd...
+[Debug] [2026-10-9 23:04:09] Begin to initialize JtagFlash for selected FPGA Device...
+[Debug] [2026-10-9 23:04:09] Begin to update graphic item and tree item ...
+[Debug] [2026-10-9 23:04:09] End to update graphic item and tree item ...
+[Info] [2026-10-9 23:04:11] set OpenLastPath: F:/PDS_Workspace/AES_DSA/bdma_pcie_v0_4/project/generate_bitstream/bdma_pcie.sfc
+[Debug] [2026-10-9 23:04:11] begin to check SFC File and Flash Device Read Mode.
+[Debug] [2026-10-9 23:04:11] end to check SFC File and Flash Device Read Mode.
+[Debug] [2026-10-9 23:04:11] Begin to update graphic item and tree item ...
+[Debug] [2026-10-9 23:04:11] End to update graphic item and tree item ...
+[Debug] [2026-10-9 23:04:11] End to initialize OuterFlash for selected FPGA Device...
+[Debug] [2026-10-9 23:04:11] end to exec scan jtag flash cmd...
+[Debug] [2026-10-9 23:04:11] COMMAND[Scan Outer SPI Flash] execute successfully, takes 2.3 secs.
+[Debug] [2026-10-9 23:04:11] Log::Print : COMMAND[Scan Outer SPI Flash] execute successfully, takes 2.3 secs.
+[Debug] [2026-10-9 23:04:14] begin to send promgram jtag flash cmd.
+[Debug] [2026-10-9 23:04:14] begin to send jtag flash erase cmd
+[Debug] [2026-10-9 23:04:14] Send RPC:5
+[Debug] [2026-10-9 23:04:14] Begin to send embed flash erase data.
+[Debug] [2026-10-9 23:04:14] Begin to send flash erase data.
+[Debug] [2026-10-9 23:04:14] End to send flash erase data.
+[Debug] [2026-10-9 23:04:14] End to send embed flash erase data.
+[Debug] [2026-10-9 23:04:14] Send cmd [Erase Outer Flash:20302] OK
+[Debug] [2026-10-9 23:04:14] Log::Print : The start address of operating flash is 0x0.
+[Debug] [2026-10-9 23:04:14] The value of Progress is 1
+[Debug] [2026-10-9 23:04:16] The value of Progress is 6
+[Debug] [2026-10-9 23:04:17] The value of Progress is 10
+[Debug] [2026-10-9 23:04:18] The value of Progress is 15
+[Debug] [2026-10-9 23:04:20] The value of Progress is 20
+[Debug] [2026-10-9 23:04:21] The value of Progress is 25
+[Debug] [2026-10-9 23:04:22] The value of Progress is 30
+[Debug] [2026-10-9 23:04:24] The value of Progress is 35
+[Debug] [2026-10-9 23:04:25] The value of Progress is 40
+[Debug] [2026-10-9 23:04:26] The value of Progress is 45
+[Debug] [2026-10-9 23:04:28] The value of Progress is 50
+[Debug] [2026-10-9 23:04:29] The value of Progress is 55
+[Debug] [2026-10-9 23:04:31] The value of Progress is 60
+[Debug] [2026-10-9 23:04:32] The value of Progress is 65
+[Debug] [2026-10-9 23:04:33] The value of Progress is 70
+[Debug] [2026-10-9 23:04:34] The value of Progress is 75
+[Debug] [2026-10-9 23:04:36] The value of Progress is 80
+[Debug] [2026-10-9 23:04:37] The value of Progress is 85
+[Debug] [2026-10-9 23:04:39] The value of Progress is 90
+[Debug] [2026-10-9 23:04:40] The value of Progress is 95
+[Debug] [2026-10-9 23:04:41] The value of Progress is 100
+[Debug] [2026-10-9 23:04:41] COMMAND[Erase Outer Flash] execute finish, takes 27.2 secs.
+[Debug] [2026-10-9 23:04:41] end to send jtag flash erase cmd.
+[Debug] [2026-10-9 23:04:41] Send RPC:6
+[Debug] [2026-10-9 23:04:41] Begin to send jtag flash program data.
+[Debug] [2026-10-9 23:04:41] Begin to send flash program data.
+[Debug] [2026-10-9 23:04:41] End to send flash program data.
+[Debug] [2026-10-9 23:04:41] End to send embed flash program data.
+[Debug] [2026-10-9 23:04:41] Send cmd [Program Outer Flash:20301] OK
+[Debug] [2026-10-9 23:04:41] Log::Print : COMMAND[Erase Outer Flash] execute finish, takes 27.2 secs.
+[Debug] [2026-10-9 23:04:41] Log::Print : The start address of operating flash is 0x0.
+[Debug] [2026-10-9 23:04:41] The value of Progress is 1
+[Debug] [2026-10-9 23:04:49] The value of Progress is 6
+[Debug] [2026-10-9 23:04:54] The value of Progress is 10
+[Debug] [2026-10-9 23:05:00] The value of Progress is 15
+[Debug] [2026-10-9 23:05:06] The value of Progress is 20
+[Debug] [2026-10-9 23:05:13] The value of Progress is 25
+[Debug] [2026-10-9 23:05:19] The value of Progress is 30
+[Debug] [2026-10-9 23:05:25] The value of Progress is 35
+[Debug] [2026-10-9 23:05:32] The value of Progress is 40
+[Debug] [2026-10-9 23:05:38] The value of Progress is 45
+[Debug] [2026-10-9 23:05:44] The value of Progress is 50
+[Debug] [2026-10-9 23:05:51] The value of Progress is 55
+[Debug] [2026-10-9 23:05:57] The value of Progress is 60
+[Debug] [2026-10-9 23:06:03] The value of Progress is 65
+[Debug] [2026-10-9 23:06:10] The value of Progress is 70
+[Debug] [2026-10-9 23:06:16] The value of Progress is 75
+[Debug] [2026-10-9 23:06:22] The value of Progress is 80
+[Debug] [2026-10-9 23:06:29] The value of Progress is 85
+[Debug] [2026-10-9 23:06:35] The value of Progress is 90
+[Debug] [2026-10-9 23:06:41] The value of Progress is 95
+[Debug] [2026-10-9 23:06:48] The value of Progress is 100
+[Debug] [2026-10-9 23:06:48] COMMAND[Program Outer Flash] execute finish, takes 126.5 secs.
+[Debug] [2026-10-9 23:06:48] begin to send jtag flash verify cmd
+[Debug] [2026-10-9 23:06:48] Send RPC:7
+[Debug] [2026-10-9 23:06:48] Begin to send embed flash verify data.
+[Debug] [2026-10-9 23:06:48] Begin to send flash verify data.
+[Debug] [2026-10-9 23:06:48] End to send flash verify data.
+[Debug] [2026-10-9 23:06:48] End to send embed flash verify data.
+[Debug] [2026-10-9 23:06:48] Send cmd [Verify Outer Flash:20303] OK
+[Debug] [2026-10-9 23:06:48] Log::Print : COMMAND[Program Outer Flash] execute finish, takes 126.5 secs.
+[Debug] [2026-10-9 23:06:48] Log::Print : The start address of operating flash is 0x0.
+[Debug] [2026-10-9 23:06:48] The value of Progress is 1
+[Debug] [2026-10-9 23:06:48] The value of Progress is 6
+[Debug] [2026-10-9 23:06:48] The value of Progress is 10
+[Debug] [2026-10-9 23:06:49] The value of Progress is 15
+[Debug] [2026-10-9 23:06:49] The value of Progress is 20
+[Debug] [2026-10-9 23:06:50] The value of Progress is 25
+[Debug] [2026-10-9 23:06:50] The value of Progress is 30
+[Debug] [2026-10-9 23:06:50] The value of Progress is 35
+[Debug] [2026-10-9 23:06:51] The value of Progress is 40
+[Debug] [2026-10-9 23:06:51] The value of Progress is 45
+[Debug] [2026-10-9 23:06:52] The value of Progress is 50
+[Debug] [2026-10-9 23:06:52] The value of Progress is 55
+[Debug] [2026-10-9 23:06:52] The value of Progress is 60
+[Debug] [2026-10-9 23:06:53] The value of Progress is 65
+[Debug] [2026-10-9 23:06:53] The value of Progress is 70
+[Debug] [2026-10-9 23:06:54] The value of Progress is 75
+[Debug] [2026-10-9 23:06:54] The value of Progress is 80
+[Debug] [2026-10-9 23:06:54] The value of Progress is 85
+[Debug] [2026-10-9 23:06:55] The value of Progress is 90
+[Debug] [2026-10-9 23:06:55] The value of Progress is 95
+[Debug] [2026-10-9 23:06:56] The value of Progress is 100
+[Debug] [2026-10-9 23:06:56] COMMAND[Verify Outer Flash] execute successfully, takes 8.2 secs.
+[Debug] [2026-10-9 23:06:56] end to send jtag flash verify cmd
+[Debug] [2026-10-9 23:06:56] end to send jtag flash program cmd.
+[Debug] [2026-10-9 23:06:56] Log::Print : COMMAND[Verify Outer Flash] execute successfully, takes 8.2 secs.
+[Info] [2026-10-9 23:11:16] /***************************End Configration***************************/

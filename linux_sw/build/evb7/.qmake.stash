@@ -1,0 +1,25 @@
+QMAKE_CXX.QT_COMPILER_STDCXX = 201703L
+QMAKE_CXX.QMAKE_GCC_MAJOR_VERSION = 13
+QMAKE_CXX.QMAKE_GCC_MINOR_VERSION = 4
+QMAKE_CXX.QMAKE_GCC_PATCH_VERSION = 0
+QMAKE_CXX.COMPILER_MACROS = \
+    QT_COMPILER_STDCXX \
+    QMAKE_GCC_MAJOR_VERSION \
+    QMAKE_GCC_MINOR_VERSION \
+    QMAKE_GCC_PATCH_VERSION
+QMAKE_CXX.INCDIRS = \
+    /home/tronlong/RK3588-EVB7-V11/rockchip_3588_linux/buildroot/output/rockchip_rk3588_evb7_v11/rockchip_rk3588/host/aarch64-buildroot-linux-gnu/include/c++/13.4.0 \
+    /home/tronlong/RK3588-EVB7-V11/rockchip_3588_linux/buildroot/output/rockchip_rk3588_evb7_v11/rockchip_rk3588/host/aarch64-buildroot-linux-gnu/include/c++/13.4.0/aarch64-buildroot-linux-gnu \
+    /home/tronlong/RK3588-EVB7-V11/rockchip_3588_linux/buildroot/output/rockchip_rk3588_evb7_v11/rockchip_rk3588/host/aarch64-buildroot-linux-gnu/include/c++/13.4.0/backward \
+    /home/tronlong/RK3588-EVB7-V11/rockchip_3588_linux/buildroot/output/rockchip_rk3588_evb7_v11/rockchip_rk3588/host/lib/gcc/aarch64-buildroot-linux-gnu/13.4.0/include \
+    /home/tronlong/RK3588-EVB7-V11/rockchip_3588_linux/buildroot/output/rockchip_rk3588_evb7_v11/rockchip_rk3588/host/lib/gcc/aarch64-buildroot-linux-gnu/13.4.0/include-fixed \
+    /home/tronlong/RK3588-EVB7-V11/rockchip_3588_linux/buildroot/output/rockchip_rk3588_evb7_v11/rockchip_rk3588/host/aarch64-buildroot-linux-gnu/include \
+    /home/tronlong/RK3588-EVB7-V11/rockchip_3588_linux/buildroot/output/rockchip_rk3588_evb7_v11/rockchip_rk3588/host/aarch64-buildroot-linux-gnu/sysroot/usr/include
+QMAKE_CXX.LIBDIRS = \
+    /home/tronlong/RK3588-EVB7-V11/rockchip_3588_linux/buildroot/output/rockchip_rk3588_evb7_v11/rockchip_rk3588/host/lib/gcc/aarch64-buildroot-linux-gnu/13.4.0 \
+    /home/tronlong/RK3588-EVB7-V11/rockchip_3588_linux/buildroot/output/rockchip_rk3588_evb7_v11/rockchip_rk3588/host/aarch64-buildroot-linux-gnu/lib64 \
+    /home/tronlong/RK3588-EVB7-V11/rockchip_3588_linux/buildroot/output/rockchip_rk3588_evb7_v11/rockchip_rk3588/host/aarch64-buildroot-linux-gnu/sysroot/lib64 \
+    /home/tronlong/RK3588-EVB7-V11/rockchip_3588_linux/buildroot/output/rockchip_rk3588_evb7_v11/rockchip_rk3588/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib64 \
+    /home/tronlong/RK3588-EVB7-V11/rockchip_3588_linux/buildroot/output/rockchip_rk3588_evb7_v11/rockchip_rk3588/host/aarch64-buildroot-linux-gnu/lib \
+    /home/tronlong/RK3588-EVB7-V11/rockchip_3588_linux/buildroot/output/rockchip_rk3588_evb7_v11/rockchip_rk3588/host/aarch64-buildroot-linux-gnu/sysroot/lib \
+    /home/tronlong/RK3588-EVB7-V11/rockchip_3588_linux/buildroot/output/rockchip_rk3588_evb7_v11/rockchip_rk3588/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib

@@ -1,0 +1,42 @@
+version,2024.2-SP1.2<build 187561>
+project name,bdma_pcie.pds
+
+Single Seed:
+Seed,State,Convergence,Setup(Slow),Setup(Fast),Hold(Slow),Hold(Fast),Recovery(Slow),Recovery(Fast),Removal(Slow),Removal(Fast),PBM-GP,PBM-PreGP,PBM-PostGP,LP,Total Placement Cpu Time,Detailed routing,Total Routing Cpu Time,Wire Length After Post-GP,Wire Length After LP,Wire Length After DP,Routing Arc Length,Worst Slack After GP Timing,Worst Slack After LP Timing,Worst Slack Before RP,Worst Slack Before DP,Worst Slack After DP,Worst Slack After Placement,Worst Slack After TA By Preroute,TNS After DP,TNS Before Route,Setup(Slow) Total Failing TNS,Setup(Slow) Total Failing Endpoints,Hold(Slow) Total Failing THS,Hold(Slow) Total Failing Endpoints,Power
+single,OK,OK,0.021,0.758,0.025,0.007,0.162,1.303,0.214,0.127,6.94,0.00,0.00,NA,159.19,34.56,62.59,NA,NA,NA,527401,NA,NA,NA,-753,-156,-123,NA,-1311,NA,0.000,0,0.000,0,NA
+Pass Rate/Convergence Rate,100.00%,100.00%
+
+Synthesize:
+control_set,940
+Synthesize Performance Summary:
+slack category,Synthesize Setup WNS,Synthesize Setup TNS,Synthesize Recovery WNS,Synthesize Recovery TNS
+slack value,-0.467,-98.049,0.555,0.000
+Synthesize Partition Blocks Summary:
+Name,type,Status,Reason,Start Time,End Time,Real Time,CPU Time
+NA,NA,NA,NA,NA,NA,NA,NA
+partition blocks number:,NA
+Synthesize Cpu Time,0h:2m:9s
+Synthesize Process Cpu Time,0h:2m:20s
+Synthesize Real Time,0h:2m:18s
+
+Device Map:
+Device Map Resource Usage Summary:
+Logic Utilization,LUT,FF,DRM,APM,Distributed RAM,HSSTHP,USCM,HCKB,RCKB
+Used,29596,38429,58.5,0,1744,NA,4,0,0
+Available,243600,487200,480,840,75400,NA,32,168,40
+Utilization(%),13%,8%,13%,0%,3%,NA,13%,0%,0%
+Device Map Process Cpu Time,0h:0m:37s
+
+Project Configurations:
+top module,bdma_pcie
+compile," -top_module {bdma_pcie} 
+ -include_path {F:/PDS_Workspace/AES_DSA/bdma_pcie_v0_4/project} 
+ -verilog_standard {SystemVerilog} 
+ -allow_duplicate_modules "
+synthesize,
+device map,
+place & route,
+
+Test Parameters Configurations:
+testparam,
+

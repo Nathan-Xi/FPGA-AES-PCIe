@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tables>
+    <table id="synthesize_runtime" title="Synthesize Runtime &amp; Memory" column_number="7">
+        <column_headers>
+            <data>Cpu Time</data>
+            <data>Process Cpu Time</data>
+            <data>Real Time</data>
+            <data>Peak Memory (MB)</data>
+            <data>Operation System</data>
+            <data>CPU</data>
+            <data>RAM(GB)</data>
+        </column_headers>
+        <row>
+            <data>0h:2m:9s</data>
+            <data>0h:2m:20s</data>
+            <data>0h:2m:18s</data>
+            <data>2,098</data>
+            <data>WINDOWS 11 x86_64</data>
+            <data>Unknown</data>
+            <data>32</data>
+        </row>
+    </table>
+</tables>

@@ -1,0 +1,212 @@
+[
+    {
+        "phase": "route",
+        "table_title": "Route",
+        "title": ["Window", "Direction", "Type", "Level", "Combined_LUTs", "Avg LUT Input", "LUT", "LUTM", "FF", "DRM", "APM", "Carry", "HRM"],
+        "name": ["Window", "Direction", "Type", "Level", "Combined_LUTs", "Avg LUT Input", "LUT", "LUTM", "FF", "DRM", "APM", "Carry", "HRM"],
+        "version": 1,
+        "top_module_name": "bdma_pcie",
+        "arch": {"family": "Titan2", "device": "PG2T390H", "package": "FFBG676", "speedgrade": "-6"},
+        "svn_version": "187561"
+    },
+    {
+        "region": [552, 1038, 605, 1097],
+        "cell_name": [["u_bdma_core_top/u_bdma_top/u_dma_pcie_intf/u_dma_pcie_cpl_rcv/cpl_convert.u_cpl_intf/u_cpl_gap_del/u_cpl_gap_det", "68%"], ["u_bdma_core_top/u_bdma_top/u_dma_pcie_intf/u_dma_pcie_cpl_rcv/cpl_convert.u_cpl_intf/u_cpl_gap_del/u_cpl_fifo", "16%"], ["u_bdma_core_top/u_bdma_top/u_dma_common/u_irq/u_pcie_msix_ctrl", "12%"]],
+        "display": ["window1", "West", "Long", "4", "13.97%", "3.33", "65.44%", "0%", "44.94%", "75.00%", "NA", "0%", "NA"]
+    },
+    {
+        "region": [570, 1026, 599, 1217],
+        "cell_name": [["u_bdma_core_top/u_bdma_top/u_dma_pcie_intf/u_dma_pcie_cpl_rcv/cpl_convert.u_cpl_intf/u_cpl_gap_del/u_cpl_gap_det", "44%"], ["u_bdma_core_top/u_bdma_top/u_axis_slave_adapter/u_axis_slv_dmx", "19%"], ["u_bdma_core_top/u_bdma_pcie_ip/u_pcie_top/u_pcie_hard_ctrl", "19%"]],
+        "display": ["window2", "West", "Long", "4", "14.11%", "2.88", "57.96%", "0%", "45.92%", "91.67%", "NA", "0%", "NA"]
+    },
+    {
+        "region": [444, 990, 485, 1067],
+        "cell_name": [["u_bdma_core_top/u_bdma_top/u_dma_eng_top/u_c2h/req_eng_mult_chnl[2].u_dma_req_eng", "60%"], ["u_bdma_core_top/u_bdma_top/u_dma_eng_top/u_c2h/req_eng_mult_chnl[0].u_dma_req_eng", "17%"], ["u_bdma_core_top/u_bdma_top/dma_axi_st_top.u_dma_axi_st_top", "12%"]],
+        "display": ["window3", "West", "Long", "4", "0%", "2.56", "57.53%", "56.41%", "44.47%", "NA", "0%", "27.08%", "NA"]
+    },
+    {
+        "region": [570, 1560, 599, 1637],
+        "cell_name": [["u_bdma_core_top/u_bdma_top/u_dma_brdg_top/u_dma_brdg_rdtlp", "85%"], ["u_bdma_core_top/u_bdma_top/u_dma_brdg_top/u_rdata_ram/LOGOS2_DPRAM.u_drm_fifo/U_ipm2l_fifo/U_ipm2l_fifo_ctrl", "11%"]],
+        "display": ["window4", "West", "Long", "4", "14.42%", "3.33", "64.90%", "57.69%", "52.88%", "66.67%", "NA", "6.25%", "NA"]
+    },
+    {
+        "region": [426, 996, 491, 1061],
+        "cell_name": [["u_bdma_core_top/u_bdma_top/u_dma_eng_top/u_c2h/req_eng_mult_chnl[2].u_dma_req_eng", "56%"], ["u_bdma_core_top/u_bdma_top/u_dma_eng_top/u_c2h/req_eng_mult_chnl[0].u_dma_req_eng", "20%"], ["u_bdma_core_top/u_bdma_top/u_dma_eng_top", "12%"]],
+        "display": ["window5", "West", "Long", "4", "0%", "2.40", "53.79%", "51.36%", "45.27%", "NA", "0%", "21.72%", "NA"]
+    },
+    {
+        "region": [564, 1008, 605, 1079],
+        "cell_name": [["u_bdma_core_top/u_bdma_top/u_dma_pcie_intf/u_dma_pcie_cpl_rcv/cpl_convert.u_cpl_intf/u_cpl_gap_del/u_cpl_gap_det", "63%"], ["u_bdma_core_top/u_bdma_top/u_dma_pcie_intf/u_dma_pcie_cpl_rcv/cpl_convert.u_cpl_intf/u_cpl_gap_del/u_cpl_fifo", "21%"], ["u_bdma_core_top/u_bdma_top/u_dma_common/u_irq/u_pcie_msix_ctrl", "14%"]],
+        "display": ["window6", "West", "Long", "4", "8.46%", "3.00", "60.77%", "0%", "43.37%", "83.33%", "NA", "1.92%", "NA"]
+    },
+    {
+        "region": [426, 1002, 683, 1325],
+        "cell_name": [["u_bdma_core_top/u_bdma_top/u_dma_pcie_intf", "59%"], ["u_bdma_core_top/u_bdma_top", "28%"], ["u_bdma_core_top/u_bdma_pcie_ip/u_pcie_top/u_phy", "9%"]],
+        "display": ["window7", "South", "Long", "6", "4.97%", "2.57", "51.57%", "10.47%", "41.49%", "89.58%", "0%", "5.90%", "NA"]
+    },
+    {
+        "region": [474, 1080, 683, 1607],
+        "cell_name": [["u_bdma_core_top/u_bdma_top", "77%"], ["u_bdma_core_top/u_bdma_pcie_ip/u_pcie_top/u_phy", "15%"], ["bdma_pcie", "7%"]],
+        "display": ["window8", "South", "Long", "6", "6.36%", "2.66", "53.06%", "12.61%", "42.07%", "76.19%", "0%", "2.07%", "NA"]
+    },
+    {
+        "region": [336, 954, 473, 1109],
+        "cell_name": [["u_bdma_core_top/u_bdma_top/u_dma_eng_top/u_c2h", "45%"], ["u_bdma_core_top/u_bdma_top/u_dma_eng_top/u_h2c/req_eng_mult_chnl[0].u_dma_req_eng", "19%"], ["u_bdma_core_top/u_bdma_top/u_dma_eng_top/u_h2c", "15%"]],
+        "display": ["window9", "South", "Long", "5", "1.95%", "2.60", "56.58%", "40.54%", "43.47%", "40.00%", "0%", "21.87%", "NA"]
+    },
+    {
+        "region": [516, 756, 593, 803],
+        "cell_name": [["u_bdma_core_top/u_bdma_top/u_dma_eng_top/u_c2h", "86%"], ["u_bdma_core_top/u_bdma_top", "13%"]],
+        "display": ["window10", "South", "Long", "4", "9.09%", "3.90", "76.30%", "0%", "39.53%", "0%", "0%", "14.45%", "NA"]
+    },
+    {
+        "region": [366, 780, 479, 1091],
+        "cell_name": [["u_bdma_core_top/u_bdma_top/u_dma_eng_top", "86%"], ["u_bdma_core_top/u_bdma_top/u_dma_pcie_intf/u_rd_req_arb", "9%"]],
+        "display": ["window11", "South", "Long", "5", "1.35%", "2.40", "53.69%", "44.12%", "43.75%", "10.00%", "0%", "17.20%", "NA"]
+    },
+    {
+        "region": [534, 828, 575, 893],
+        "cell_name": [["u_bdma_core_top/u_bdma_top", "100%"]],
+        "display": ["window12", "South", "Long", "4", "0%", "2.86", "61.36%", "15.15%", "40.91%", "NA", "0%", "15.91%", "NA"]
+    },
+    {
+        "region": [378, 726, 467, 809],
+        "cell_name": [["u_bdma_core_top/u_bdma_top/u_dma_eng_top/u_dma_dsc_mng", "89%"], ["u_bdma_core_top/u_bdma_top", "10%"]],
+        "display": ["window13", "South", "Long", "4", "5.92%", "1.55", "30.99%", "1.71%", "32.80%", "0%", "0%", "2.88%", "NA"]
+    },
+    {
+        "region": [504, 744, 605, 1313],
+        "cell_name": [["u_bdma_core_top/u_bdma_top", "98%"]],
+        "display": ["window14", "South", "Long", "6", "7.60%", "2.95", "58.45%", "15.02%", "42.80%", "75.00%", "0%", "6.79%", "NA"]
+    },
+    {
+        "region": [444, 1284, 593, 1463],
+        "cell_name": [["u_bdma_core_top/u_bdma_top", "94%"], ["bdma_pcie", "5%"]],
+        "display": ["window15", "South", "Long", "5", "8.95%", "2.57", "50.08%", "18.39%", "41.73%", "91.67%", "0%", "0.64%", "NA"]
+    },
+    {
+        "region": [372, 912, 437, 1247],
+        "cell_name": [["u_bdma_core_top/u_bdma_top/u_dma_eng_top", "55%"], ["u_bdma_core_top/u_bdma_top/u_dma_pcie_intf/u_dma_pcie_cpl_rcv", "28%"], ["u_bdma_core_top/u_bdma_top/u_dma_pcie_intf/u_rd_req_arb", "11%"]],
+        "display": ["window16", "South", "Long", "5", "0.51%", "2.04", "42.20%", "31.30%", "42.31%", "27.27%", "0%", "7.10%", "NA"]
+    },
+    {
+        "region": [426, 894, 683, 1217],
+        "cell_name": [["u_bdma_core_top/u_bdma_top", "91%"], ["u_bdma_core_top/u_bdma_pcie_ip/u_pcie_top/u_phy", "5%"]],
+        "display": ["window17", "North", "Long", "6", "4.20%", "2.47", "50.79%", "18.13%", "41.14%", "78.00%", "0%", "8.32%", "NA"]
+    },
+    {
+        "region": [522, 1254, 683, 1445],
+        "cell_name": [["u_bdma_core_top/u_bdma_top", "73%"], ["u_bdma_core_top/u_bdma_pcie_ip/u_pcie_top/u_phy", "21%"], ["u_bdma_core_top/u_bdma_pcie_ip/u_pcie_top/u_pcie_hard_ctrl", "4%"]],
+        "display": ["window18", "North", "Long", "5", "4.38%", "2.54", "50.79%", "19.75%", "42.90%", "80.00%", "0%", "0.62%", "NA"]
+    },
+    {
+        "region": [336, 858, 473, 1007],
+        "cell_name": [["u_bdma_core_top/u_bdma_top/u_dma_eng_top/u_h2c", "62%"], ["u_bdma_core_top/u_bdma_top/u_dma_eng_top/u_c2h", "27%"], ["u_bdma_core_top/u_bdma_top/u_dma_pcie_intf/u_rd_req_arb", "9%"]],
+        "display": ["window19", "North", "Long", "5", "0%", "2.77", "61.79%", "51.23%", "46.41%", "0%", "0%", "22.68%", "NA"]
+    },
+    {
+        "region": [438, 972, 683, 1421],
+        "cell_name": [["u_bdma_core_top/u_bdma_top/u_dma_pcie_intf", "55%"], ["u_bdma_core_top/u_bdma_top", "32%"], ["u_bdma_core_top/u_bdma_pcie_ip/u_pcie_top/u_phy", "9%"]],
+        "display": ["window20", "North", "Long", "6", "5.48%", "2.62", "52.62%", "12.76%", "41.79%", "87.14%", "0%", "5.34%", "NA"]
+    },
+    {
+        "region": [384, 666, 449, 743],
+        "cell_name": [["u_bdma_core_top/u_bdma_top/u_dma_eng_top/u_dma_dsc_mng", "97%"]],
+        "display": ["window21", "North", "Long", "4", "5.77%", "3.02", "60.15%", "0%", "36.86%", "0%", "0%", "17.84%", "NA"]
+    },
+    {
+        "region": [366, 696, 467, 971],
+        "cell_name": [["u_bdma_core_top/u_bdma_top/u_dma_eng_top", "88%"], ["u_bdma_core_top/u_bdma_top/u_dma_pcie_intf/u_rd_req_arb", "7%"]],
+        "display": ["window22", "North", "Long", "5", "2.89%", "2.26", "48.72%", "28.28%", "38.93%", "0%", "0%", "12.69%", "NA"]
+    },
+    {
+        "region": [528, 714, 569, 797],
+        "cell_name": [["u_bdma_core_top/u_bdma_top", "100%"]],
+        "display": ["window23", "North", "Long", "4", "11.54%", "4.05", "78.37%", "0%", "39.50%", "NA", "0%", "11.38%", "NA"]
+    },
+    {
+        "region": [372, 618, 449, 695],
+        "cell_name": [["u_bdma_core_top/u_bdma_top/u_dma_eng_top/u_dma_dsc_mng", "97%"]],
+        "display": ["window24", "North", "Long", "4", "3.67%", "2.91", "57.34%", "0%", "30.29%", "0%", "0%", "23.51%", "NA"]
+    },
+    {
+        "region": [372, 984, 425, 1037],
+        "cell_name": [["u_bdma_core_top/u_bdma_top/u_dma_eng_top/u_h2c", "72%"], ["u_bdma_core_top/u_bdma_top/u_dma_pcie_intf/u_rd_req_arb", "17%"], ["u_bdma_core_top/u_bdma_top/u_dma_eng_top/u_c2h/req_eng_mult_chnl[0].u_dma_req_eng/dsc_fifo", "5%"]],
+        "display": ["window25", "North", "Long", "4", "0%", "2.36", "51.22%", "59.26%", "48.26%", "0%", "NA", "10.94%", "NA"]
+    },
+    {
+        "region": [540, 732, 569, 815],
+        "cell_name": [["u_bdma_core_top/u_bdma_top/u_dma_eng_top/u_c2h", "73%"], ["u_bdma_core_top/u_bdma_top", "26%"]],
+        "display": ["window26", "North", "Long", "4", "16.35%", "4.32", "81.49%", "0%", "40.38%", "NA", "0%", "10.58%", "NA"]
+    },
+    {
+        "region": [474, 756, 575, 803],
+        "cell_name": [["u_bdma_core_top/u_bdma_top/u_dma_eng_top/u_c2h", "81%"], ["u_bdma_core_top/u_bdma_top", "18%"]],
+        "display": ["window27", "North", "Long", "4", "7.86%", "3.57", "69.88%", "1.79%", "38.93%", "50.00%", "0%", "12.98%", "NA"]
+    },
+    {
+        "region": [378, 630, 479, 683],
+        "cell_name": [["u_bdma_core_top/u_bdma_top/u_dma_eng_top/u_dma_dsc_mng", "94%"], ["u_bdma_core_top/u_bdma_top/u_dma_eng_top/u_h2c", "4%"]],
+        "display": ["window28", "North", "Long", "4", "6.94%", "3.08", "59.23%", "0%", "34.47%", "0%", "0%", "18.75%", "NA"]
+    },
+    {
+        "region": [534, 852, 599, 965],
+        "cell_name": [["u_bdma_core_top/u_bdma_top", "100%"]],
+        "display": ["window29", "North", "Long", "4", "6.87%", "2.71", "52.49%", "9.54%", "40.75%", "75.00%", "0%", "1.24%", "NA"]
+    },
+    {
+        "region": [366, 1098, 431, 1139],
+        "cell_name": [["u_bdma_core_top/u_bdma_top", "100%"]],
+        "display": ["window30", "North", "Long", "4", "2.50%", "2.01", "36.43%", "14.29%", "37.41%", "50.00%", "NA", "7.50%", "NA"]
+    },
+    {
+        "region": [378, 624, 407, 1313],
+        "cell_name": [["u_bdma_core_top/u_bdma_top", "99%"]],
+        "display": ["window31", "North", "Long", "5", "0.94%", "2.05", "43.06%", "23.67%", "38.30%", "18.18%", "NA", "9.60%", "NA"]
+    },
+    {
+        "region": [480, 1038, 533, 1097],
+        "cell_name": [["u_bdma_core_top/u_bdma_top", "100%"]],
+        "display": ["window32", "East", "Long", "4", "0%", "2.79", "54.86%", "46.67%", "51.22%", "100.00%", "NA", "18.40%", "NA"]
+    },
+    {
+        "region": [576, 1362, 653, 1421],
+        "cell_name": [["u_bdma_core_top/u_bdma_top", "51%"], ["u_bdma_core_top/u_bdma_pcie_ip/u_pcie_top/u_phy", "40%"], ["u_bdma_core_top/u_bdma_pcie_ip/u_pcie_top/u_pcie_hard_ctrl", "8%"]],
+        "display": ["window33", "East", "Long", "4", "0%", "2.20", "44.80%", "0%", "38.83%", "75.00%", "NA", "1.26%", "NA"]
+    },
+    {
+        "region": [372, 996, 425, 1061],
+        "cell_name": [["u_bdma_core_top/u_bdma_top/u_dma_eng_top", "85%"], ["u_bdma_core_top/u_bdma_top/u_dma_pcie_intf/u_rd_req_arb", "14%"]],
+        "display": ["window34", "East", "Long", "4", "0%", "2.14", "46.88%", "50.00%", "45.60%", "0%", "NA", "10.09%", "NA"]
+    },
+    {
+        "region": [504, 1104, 533, 1181],
+        "cell_name": [["u_bdma_core_top/u_bdma_top/u_dma_pcie_intf/u_dma_pcie_tx_ctrl", "62%"], ["u_bdma_core_top/u_bdma_top/u_dma_pcie_intf/u_dma_pcie_cpl_rcv/cpl_convert.u_cpl_intf/u_cpl_gap_del/u_cpl_fifo", "32%"], ["u_bdma_core_top/u_bdma_top", "4%"]],
+        "display": ["window35", "East", "Long", "4", "0.77%", "3.06", "60.19%", "23.08%", "42.79%", "NA", "NA", "4.62%", "NA"]
+    },
+    {
+        "region": [504, 900, 521, 1211],
+        "cell_name": [["u_bdma_core_top/u_bdma_top/u_dma_pcie_intf", "57%"], ["u_bdma_core_top/u_bdma_top/u_dma_eng_top/u_c2h/req_eng_mult_chnl[2].u_dma_req_eng", "24%"], ["u_bdma_core_top/u_bdma_top/u_dma_eng_top/u_c2h/req_eng_mult_chnl[1].u_dma_req_eng", "15%"]],
+        "display": ["window36", "East", "Long", "4", "0%", "2.89", "60.13%", "50.74%", "50.94%", "NA", "NA", "12.75%", "NA"]
+    },
+    {
+        "region": [498, 1560, 527, 1637],
+        "cell_name": [["u_bdma_core_top/u_bdma_top/u_dma_brdg_top/u_wr_ram/genblk1.u_reg_fifo2", "47%"], ["u_bdma_core_top/u_bdma_top/u_dma_brdg_top/u_dma_brdg_wr_ram_ctrl", "32%"], ["u_bdma_core_top/u_bdma_top/u_dma_brdg_top/u_wr_ram/genblk1.u_drm_fifo/LOGOS2_DPRAM.u_drm_fifo/U_ipm2l_fifo/U_ipm2l_fifo_ctrl", "11%"]],
+        "display": ["window37", "East", "Long", "4", "0%", "1.73", "32.45%", "0%", "37.62%", "33.33%", "NA", "4.81%", "NA"]
+    },
+    {
+        "region": [372, 930, 413, 1067],
+        "cell_name": [["u_bdma_core_top/u_bdma_top/u_dma_eng_top/u_h2c", "76%"], ["u_bdma_core_top/u_bdma_top/u_dma_eng_top", "12%"], ["u_bdma_core_top/u_bdma_top/u_dma_pcie_intf/u_rd_req_arb", "10%"]],
+        "display": ["window38", "East", "Long", "4", "0.36%", "2.41", "53.26%", "58.26%", "49.82%", "0%", "NA", "12.68%", "NA"]
+    },
+    {
+        "region": [354, 996, 407, 1061],
+        "cell_name": [["u_bdma_core_top/u_bdma_top/u_dma_eng_top", "96%"]],
+        "display": ["window39", "East", "Long", "4", "0.65%", "2.35", "52.92%", "50.91%", "46.83%", "0%", "NA", "15.42%", "NA"]
+    },
+    {
+        "region": [498, 1086, 527, 1163],
+        "cell_name": [["u_bdma_core_top/u_bdma_top/u_dma_pcie_intf/u_dma_pcie_tx_ctrl", "82%"], ["u_bdma_core_top/u_bdma_top/u_dma_pcie_intf/u_dma_pcie_cpl_rcv/cpl_convert.u_cpl_intf/u_cpl_gap_del/u_cpl_fifo/cpl_ram0/ips2t_cpl_reg_fifo2", "8%"], ["u_bdma_core_top/u_bdma_top/u_dma_pcie_intf/u_dma_pcie_cpl_rcv/cpl_convert.u_cpl_intf/u_cpl_gap_del/u_cpl_fifo/cpl_ram1/ips2t_cpl_reg_fifo2", "5%"]],
+        "display": ["window40", "East", "Long", "4", "0%", "3.39", "68.51%", "42.31%", "48.32%", "100.00%", "NA", "8.17%", "NA"]
+    }
+]
