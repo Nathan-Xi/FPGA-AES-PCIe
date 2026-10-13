@@ -105,9 +105,9 @@ Porting work should pay attention to these three integration layers:
 
 Two integration details:
 
-**Key word order**
-address `0x00` of the AES register map maps to the most significant 32-bit word of the 128-bit key. The wrapper was corrected to match this host display order.
-**Multi-block operation**: the key schedule is reset to the original key at the start of each AES block so multiple 128-bit blocks can be encrypted consecutively.
+- **Key word order**: address `0x00` of the AES register map maps to the most significant 32-bit word of the 128-bit key. The wrapper was corrected to match this host display order.
+
+- **Multi-block operation**: the key schedule is reset to the original key at the start of each AES block so multiple 128-bit blocks can be encrypted consecutively.
 
 The `aes_tb_multiblock.sv` testbench validates both the AXI wrapper and the multi-block behavior.
 
